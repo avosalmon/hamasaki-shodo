@@ -4,16 +4,36 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'hamasaki-shodo',
+    title: 'はまさき書道教室 シンガポール',
     htmlAttrs: {
-      lang: 'en',
+      lang: 'ja',
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          'はまさき書道教室シンガポールでは、マンツーマンから少人数で、幼稚園生から大人まできめ細やかに指導いたします。',
+      },
+      {
+        hid: 'keywords',
+        name: 'keywords',
+        content: '書道,習字,ペン字,筆文字,習い事,シンガポール,リバーバレー',
+      },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [
+      {
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: '/favicon.ico',
+      },
+      {
+        rel: 'canonical',
+        href: 'https://www.hamasaki-shodo.com',
+      },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
