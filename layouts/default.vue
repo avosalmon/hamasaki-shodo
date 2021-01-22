@@ -1,80 +1,78 @@
 <template>
   <div>
     <header class="relative bg-white">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6">
-        <div
-          class="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-center"
-        >
-          <h1 class="">
-            <a href="/" class="text-xl">はまさき書道教室 Singapore</a>
-          </h1>
-          <div class="-mr-2 -my-2 md:hidden">
-            <button
-              type="button"
-              class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-700 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
-              @click="isMenuOn = true"
+      <div
+        class="flex justify-between items-center border-b-2 border-gray-100 px-4 py-6 sm:px-6 md:justify-center"
+      >
+        <h1 class="">
+          <a href="/" class="text-xl">はまさき書道教室 Singapore</a>
+        </h1>
+        <div class="-mr-2 -my-2 md:hidden">
+          <button
+            type="button"
+            class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-700 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+            @click="isMenuOn = true"
+          >
+            <span class="sr-only">Open menu</span>
+            <!-- Heroicon name: menu -->
+            <svg
+              class="h-6 w-6"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              aria-hidden="true"
             >
-              <span class="sr-only">Open menu</span>
-              <!-- Heroicon name: menu -->
-              <svg
-                class="h-6 w-6"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                aria-hidden="true"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M4 6h16M4 12h16M4 18h16"
-                />
-              </svg>
-            </button>
-          </div>
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </button>
         </div>
-        <nav
-          class="hidden md:flex justify-center items-center bg-gray-100 py-4 space-x-6"
-        >
-          <a
-            href="#"
-            class="text-base font-medium text-gray-700 hover:text-gray-900"
-          >
-            ごあいさつ
-          </a>
-          <a
-            href="#"
-            class="text-base font-medium text-gray-700 hover:text-gray-900"
-          >
-            ニュース
-          </a>
-          <a
-            href="#"
-            class="text-base font-medium text-gray-700 hover:text-gray-900"
-          >
-            講師紹介
-          </a>
-          <a
-            href="#"
-            class="text-base font-medium text-gray-700 hover:text-gray-900"
-          >
-            コース
-          </a>
-          <a
-            href="#"
-            class="text-base font-medium text-gray-700 hover:text-gray-900"
-          >
-            ギャラリー
-          </a>
-          <a
-            href="#"
-            class="text-base font-medium text-gray-700 hover:text-gray-900"
-          >
-            お問い合わせ
-          </a>
-        </nav>
       </div>
+      <nav
+        class="hidden md:flex justify-center items-center bg-gray-100 py-4 space-x-6"
+      >
+        <a
+          href="#"
+          class="text-base font-medium text-gray-700 hover:text-gray-900"
+        >
+          ごあいさつ
+        </a>
+        <a
+          href="#"
+          class="text-base font-medium text-gray-700 hover:text-gray-900"
+        >
+          ニュース
+        </a>
+        <a
+          href="#"
+          class="text-base font-medium text-gray-700 hover:text-gray-900"
+        >
+          講師紹介
+        </a>
+        <a
+          href="#"
+          class="text-base font-medium text-gray-700 hover:text-gray-900"
+        >
+          コース
+        </a>
+        <a
+          href="#"
+          class="text-base font-medium text-gray-700 hover:text-gray-900"
+        >
+          ギャラリー
+        </a>
+        <a
+          href="#"
+          class="text-base font-medium text-gray-700 hover:text-gray-900"
+        >
+          お問い合わせ
+        </a>
+      </nav>
 
       <transition
         enter-active-class="duration-200 ease-out"
@@ -181,8 +179,13 @@
         </div>
       </transition>
     </header>
-
-    <Nuxt />
+    <main class="container mx-auto px-4 py-10">
+      <Nuxt />
+    </main>
+    <footer class="container mx-auto px-4 py-10 flex justify-center">
+      &copy; {{ currentYear }} はまさき書道教室 Singapore. Supported by Learning
+      Stage
+    </footer>
   </div>
 </template>
 
@@ -192,6 +195,11 @@ export default {
     return {
       isMenuOn: false,
     }
+  },
+  computed: {
+    currentYear() {
+      return new Date().getFullYear()
+    },
   },
 }
 </script>
