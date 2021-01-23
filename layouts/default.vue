@@ -43,16 +43,16 @@
           ごあいさつ
         </a>
         <a
-          href="#news"
-          class="text-base font-medium text-gray-700 hover:text-gray-900"
-        >
-          ニュース
-        </a>
-        <a
           href="#teacher"
           class="text-base font-medium text-gray-700 hover:text-gray-900"
         >
           講師紹介
+        </a>
+        <a
+          href="#news"
+          class="text-base font-medium text-gray-700 hover:text-gray-900"
+        >
+          ニュース
         </a>
         <a
           href="#course"
@@ -152,20 +152,20 @@
                   </a>
 
                   <a
-                    href="#news"
-                    class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
-                  >
-                    <span class="ml-3 text-base font-medium text-gray-900">
-                      ニュース
-                    </span>
-                  </a>
-
-                  <a
                     href="#teacher"
                     class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
                   >
                     <span class="ml-3 text-base font-medium text-gray-900">
                       講師紹介
+                    </span>
+                  </a>
+
+                  <a
+                    href="#news"
+                    class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
+                  >
+                    <span class="ml-3 text-base font-medium text-gray-900">
+                      ニュース
                     </span>
                   </a>
 
