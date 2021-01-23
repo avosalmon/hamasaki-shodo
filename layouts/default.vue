@@ -37,37 +37,37 @@
         class="hidden md:flex justify-center items-center bg-gray-100 py-4 space-x-6"
       >
         <a
-          href="#"
+          href="#message"
           class="text-base font-medium text-gray-700 hover:text-gray-900"
         >
           ごあいさつ
         </a>
         <a
-          href="#"
+          href="#news"
           class="text-base font-medium text-gray-700 hover:text-gray-900"
         >
           ニュース
         </a>
         <a
-          href="#"
+          href="#teacher"
           class="text-base font-medium text-gray-700 hover:text-gray-900"
         >
           講師紹介
         </a>
         <a
-          href="#"
+          href="#course"
           class="text-base font-medium text-gray-700 hover:text-gray-900"
         >
           コース
         </a>
         <a
-          href="#"
+          href="#gallery"
           class="text-base font-medium text-gray-700 hover:text-gray-900"
         >
           ギャラリー
         </a>
         <a
-          href="#"
+          href="#contact"
           class="text-base font-medium text-gray-700 hover:text-gray-900"
         >
           お問い合わせ
@@ -143,7 +143,7 @@
               <div class="mt-6">
                 <nav class="grid gap-y-8">
                   <a
-                    href="#"
+                    href="#message"
                     class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
                   >
                     <span class="ml-3 text-base font-medium text-gray-900">
@@ -152,7 +152,7 @@
                   </a>
 
                   <a
-                    href="#"
+                    href="#news"
                     class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
                   >
                     <span class="ml-3 text-base font-medium text-gray-900">
@@ -161,7 +161,7 @@
                   </a>
 
                   <a
-                    href="#"
+                    href="#teacher"
                     class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
                   >
                     <span class="ml-3 text-base font-medium text-gray-900">
@@ -170,7 +170,7 @@
                   </a>
 
                   <a
-                    href="#"
+                    href="#course"
                     class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
                   >
                     <span class="ml-3 text-base font-medium text-gray-900">
@@ -179,7 +179,7 @@
                   </a>
 
                   <a
-                    href="#"
+                    href="#gallery"
                     class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
                   >
                     <span class="ml-3 text-base font-medium text-gray-900">
@@ -188,7 +188,7 @@
                   </a>
 
                   <a
-                    href="#"
+                    href="#contact"
                     class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
                   >
                     <span class="ml-3 text-base font-medium text-gray-900">
