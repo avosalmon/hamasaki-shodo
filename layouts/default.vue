@@ -4,8 +4,8 @@
       <div
         class="flex justify-between items-center border-b-2 border-gray-100 px-4 py-6 sm:px-6 md:justify-center"
       >
-        <h1 class="">
-          <a href="/" class="text-xl">はまさき書道教室 Singapore</a>
+        <h1 class="text-xl">
+          <a href="/">はまさき書道教室 Singapore</a>
         </h1>
         <div class="-mr-2 -my-2 md:hidden">
           <button
