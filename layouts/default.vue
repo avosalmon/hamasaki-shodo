@@ -202,10 +202,10 @@
         </div>
       </transition>
     </header>
-    <main class="container mx-auto px-4 py-10">
+    <main class="mx-auto w-full md:w-2/3 lg:w-3/5 px-4 py-10">
       <Nuxt />
     </main>
-    <footer class="container mx-auto px-4 py-10 text-center">
+    <footer class="mx-auto w-full md:w-2/3 lg:w-3/5 px-4 py-10 text-center">
       <span>&copy; {{ currentYear }} はまさき書道教室 Singapore. </span>
       <br class="md:hidden" />
       <span>Supported by Learning Stage</span>
