@@ -36,8 +36,7 @@ export default {
     ],
     script: [
       {
-        src:
-          '//typesquare.com/3/tsst/script/ja/typesquare.js?600265f9641c481e93107f23ac1e02e5&fadein=1000',
+        src: `//typesquare.com/3/tsst/script/ja/typesquare.js?${process.env.TYPESQUARE_TOKEN}&fadein=1000`,
       },
     ],
   },
