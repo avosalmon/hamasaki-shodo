@@ -205,9 +205,10 @@
     <main class="container mx-auto px-4 py-10">
       <Nuxt />
     </main>
-    <footer class="container mx-auto px-4 py-10 flex justify-center">
-      &copy; {{ currentYear }} はまさき書道教室 Singapore. Supported by Learning
-      Stage
+    <footer class="container mx-auto px-4 py-10 text-center">
+      <span>&copy; {{ currentYear }} はまさき書道教室 Singapore. </span>
+      <br class="md:hidden" />
+      <span>Supported by Learning Stage</span>
     </footer>
   </div>
 </template>
