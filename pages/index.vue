@@ -81,7 +81,7 @@
     <PageSection id="news" class="mt-24 py-8">
       <h3 class="mb-20 text-4xl text-center">ニュース</h3>
       <ul>
-        <li class="mb-24">
+        <li class="leading-7 mb-24">
           <p class="mb-8 text-2xl">大人クラス生徒さん募集</p>
           <time class="inline-block mb-8 text-lg" datetime="2021-01-24">
             2021年1月24日
@@ -96,7 +96,7 @@
             入会・体験講座ご希望の方はお問い合わせフォームよりご連絡ください。
           </p>
         </li>
-        <li>
+        <li class="leading-7">
           <p class="mb-8 text-2xl">学生クラス生徒さん募集</p>
           <time class="inline-block mb-8 text-lg" datetime="2021-01-24">
             2021年1月24日
@@ -109,7 +109,13 @@
       </ul>
     </PageSection>
 
-    <PageSection id="course"></PageSection>
+    <PageSection id="course" class="mt-24 py-8">
+      <h3 class="mb-20 text-4xl text-center">コース</h3>
+      <p class="leading-7 md:text-center">
+        いずれのコースもRiver Valleyでの少人数（3人まで）指導です。<br />
+        体験講座もございます。入会金、用具代などについてはお問い合わせください。
+      </p>
+    </PageSection>
 
     <PageSection id="gallery"></PageSection>
 
