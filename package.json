@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.12.5",
+    "@nuxtjs/cloudinary": "^1.0.3-beta-2",
     "core-js": "^3.8.2",
     "nuxt": "^2.14.12"
   },

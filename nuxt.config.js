@@ -61,6 +61,7 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    '@nuxtjs/cloudinary',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -68,4 +69,10 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  // Cloudinary module configuration: https://cloudinary.nuxtjs.org/options
+  cloudinary: {
+    cloudName: process.env.CLOUDINARY_ID,
+    useComponent: true,
+  },
 }
