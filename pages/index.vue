@@ -74,7 +74,18 @@
       </ul>
     </section>
 
-    <section id="news"></section>
+    <section id="news" class="mt-24 py-8">
+      <h3>ニュース</h3>
+      <ul>
+        <li>
+          <p>大人クラスの募集を再開いたします。</p>
+          <time datetime="2021-01-15">2021年1月15日</time>
+          <p>
+            募集を一時停止していた大人のクラスですが、募集を再開する予定です。募集する曜日・時間帯が決定しましたらこちらのニュース欄にてお知らせいたします。
+          </p>
+        </li>
+      </ul>
+    </section>
 
     <section id="course"></section>
 
