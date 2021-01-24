@@ -81,6 +81,7 @@
     <PageSection id="news" class="mt-24 py-8">
       <h3 class="mb-20 text-4xl text-center">ニュース</h3>
       <ul>
+        <!-- TODO: Extract as "News" component -->
         <li class="leading-7 mb-24">
           <p class="mb-8 text-2xl">大人クラス生徒さん募集</p>
           <time class="inline-block mb-8 text-lg" datetime="2021-01-24">
