@@ -45,7 +45,7 @@
 
     <PageSection
       id="teacher"
-      class="mt-24 py-8 bg-gray-100"
+      class="mt-24 py-16 bg-gray-100"
       :is-full-width="true"
     >
       <h3 class="mb-8 text-2xl">濱崎 麻里子</h3>
@@ -79,13 +79,31 @@
     </PageSection>
 
     <PageSection id="news" class="mt-24 py-8">
-      <h3>ニュース</h3>
+      <h3 class="mb-20 text-4xl text-center">ニュース</h3>
       <ul>
-        <li>
-          <p>大人クラスの募集を再開いたします。</p>
-          <time datetime="2021-01-15">2021年1月15日</time>
+        <li class="mb-24">
+          <p class="mb-8 text-2xl">大人クラス生徒さん募集</p>
+          <time class="inline-block mb-8 text-lg" datetime="2021-01-24">
+            2021年1月24日
+          </time>
           <p>
-            募集を一時停止していた大人のクラスですが、募集を再開する予定です。募集する曜日・時間帯が決定しましたらこちらのニュース欄にてお知らせいたします。
+            募集を一時停止していた大人のクラスですが、下記の曜日で募集を再開いたします。（）内は定員です。<br />
+            火曜 午後2時〜（1名）<br />
+            午後4時〜（1名）<br />
+            水曜 午後2時〜（2名）<br />
+            金曜 午前10時〜（2名）<br />
+            午後2時〜（2名）<br /><br />
+            入会・体験講座ご希望の方はお問い合わせフォームよりご連絡ください。
+          </p>
+        </li>
+        <li>
+          <p class="mb-8 text-2xl">学生クラス生徒さん募集</p>
+          <time class="inline-block mb-8 text-lg" datetime="2021-01-24">
+            2021年1月24日
+          </time>
+          <p>
+            金曜日17：00〜のクラスの生徒さんを募集いたします。2名まで受け入れ可能です。<br />
+            入会・体験講座をご希望の方はお問い合わせフォームよりご連絡ください。
           </p>
         </li>
       </ul>
