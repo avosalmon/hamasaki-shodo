@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="text-center">
+    <PageSection class="text-center">
       <p class="my-3 text-4xl md:text-6xl">はまさき書道教室</p>
       <p class="mb-4 text-4xl md:text-6xl">Singapore</p>
       <p class="mb-8 text-2xl">Supported by Learning Stage</p>
@@ -15,9 +15,9 @@
           alt="はまさき書道教室"
         />
       </p>
-    </section>
+    </PageSection>
 
-    <section id="message" class="flex flex-col md:flex-row mt-12 md:mt-24">
+    <PageSection id="message" class="flex flex-col md:flex-row mt-12 md:mt-24">
       <div class="mb-12 md:mb-0 md:p-10 md:bg-gray-100">
         <p class="leading-7 mb-4 md:mb-12">
           文字を上手に書きたい、美しく書きたい、という思いは、字を書きはじめたこどもから大人まで、多くの人が心の内に持っている願いではないでしょうか。<br />
@@ -41,9 +41,13 @@
           alt="筆"
         />
       </div>
-    </section>
+    </PageSection>
 
-    <section id="teacher" class="mt-24 py-8 bg-gray-100">
+    <PageSection
+      id="teacher"
+      class="mt-24 py-8 bg-gray-100"
+      :is-full-width="true"
+    >
       <h3 class="mb-8 text-2xl">濱崎 麻里子</h3>
       <ul class="mb-8">
         <li class="mb-1">東京学芸大学教育学部書道専攻卒業</li>
@@ -72,9 +76,9 @@
         </li>
         <li>他 多数グループ展に出品</li>
       </ul>
-    </section>
+    </PageSection>
 
-    <section id="news" class="mt-24 py-8">
+    <PageSection id="news" class="mt-24 py-8">
       <h3>ニュース</h3>
       <ul>
         <li>
@@ -85,16 +89,22 @@
           </p>
         </li>
       </ul>
-    </section>
+    </PageSection>
 
-    <section id="course"></section>
+    <PageSection id="course"></PageSection>
 
-    <section id="gallery"></section>
+    <PageSection id="gallery"></PageSection>
 
-    <section id="contact"></section>
+    <PageSection id="contact"></PageSection>
   </div>
 </template>
 
 <script>
-export default {}
+import PageSection from '@/components/PageSection'
+
+export default {
+  components: {
+    PageSection,
+  },
+}
 </script>

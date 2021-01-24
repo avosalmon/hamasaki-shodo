@@ -202,7 +202,7 @@
         </div>
       </transition>
     </header>
-    <main class="mx-auto w-full md:w-2/3 lg:w-3/5 px-4 py-10">
+    <main class="py-10">
       <Nuxt />
     </main>
     <footer class="mx-auto w-full md:w-2/3 lg:w-3/5 px-4 py-10 text-center">
