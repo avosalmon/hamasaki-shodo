@@ -10,9 +10,14 @@
         <span>River Valleyの小さな教室です。</span>
       </p>
       <p>
-        <img
-          src="https://static.wixstatic.com/media/f9201a_613c3f69aa2c4dde9a80de52e31cc225~mv2.jpg/v1/fill/w_1880,h_1000,al_c,q_85,usm_0.66_1.00_0.01/IMG_0917_JPG.webp"
+        <CldImage
+          public-id="hamasaki-shodo.com/shodo"
+          aspectRatio="16:9"
+          quality="auto"
+          crop="fill"
+          fetchFormat="auto"
           alt="はまさき書道教室"
+          responsive
         />
       </p>
     </PageSection>
