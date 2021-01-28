@@ -16,5 +16,8 @@ module.exports = {
   ],
   plugins: ['prettier'],
   // add your custom rules here
-  rules: {},
+  rules: {
+    // https://github.com/nuxt-community/cloudinary-module/issues/56
+    'vue/attribute-hyphenation': 'off',
+  },
 }
