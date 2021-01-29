@@ -129,71 +129,27 @@
         体験講座もございます。入会金、用具代などについてはお問い合わせください。
       </p>
 
-      <!-- TODO: extract as a component -->
-      <div class="flex flex-col md:flex-row mt-20">
-        <div class="flex flex-col text-center md:justify-center md:w-1/3">
-          <p class="text-2xl mb-1">学生書道講座</p>
-          <p class="text-xl mb-1">（５才〜中学生）</p>
-          <p class="text-xl mb-2">（60分）</p>
-          <div class="hidden md:block md:mt-8">
-            <a
-              href="#"
-              class="inline-block border border-black px-7 py-3 transition-colors duration-300 hover:bg-black hover:text-white"
-              >詳細</a
-            >
-          </div>
-        </div>
-        <div class="md:w-2/3">
-          <CldImage
-            public-id="hamasaki-shodo.com/suzuri"
-            aspectRatio="16:9"
-            crop="fill"
-            effect="sharpen:100"
-            quality="auto"
-            fetchFormat="auto"
-            alt="硯"
-            responsive
-          />
-          <a
-            href="#"
-            class="w-full text-center inline-block md:hidden border border-black px-7 py-3 transition-colors duration-300 hover:bg-black hover:text-white"
-            >詳細を見る</a
-          >
-        </div>
-      </div>
+      <Course
+        class="mt-20"
+        title="学生書道講座"
+        image-path="hamasaki-shodo.com/suzuri"
+        image-alt="硯"
+        href="#"
+      >
+        <p class="text-xl mb-1">（５才〜中学生）</p>
+        <p class="text-xl mb-2">（60分）</p>
+      </Course>
 
-      <div class="flex flex-col md:flex-row mt-20 md:mt-40">
-        <div
-          class="flex flex-col text-center md:justify-center md:w-1/3 md:order-2"
-        >
-          <p class="text-2xl mb-1">大人向け講座</p>
-          <p class="text-xl mb-2">（90分）</p>
-          <div class="hidden md:block md:mt-8">
-            <a
-              href="#"
-              class="inline-block border border-black px-7 py-3 transition-colors duration-300 hover:bg-black hover:text-white"
-              >詳細</a
-            >
-          </div>
-        </div>
-        <div class="md:w-2/3 md:order-1">
-          <CldImage
-            public-id="hamasaki-shodo.com/suzuri-02"
-            aspectRatio="16:9"
-            crop="fill"
-            effect="sharpen:100"
-            quality="auto"
-            fetchFormat="auto"
-            alt="硯"
-            responsive
-          />
-          <a
-            href="#"
-            class="w-full text-center inline-block md:hidden border border-black px-7 py-3 transition-colors duration-300 hover:bg-black hover:text-white"
-            >詳細を見る</a
-          >
-        </div>
-      </div>
+      <Course
+        class="mt-20 md:mt-40"
+        title="大人向け講座"
+        image-path="hamasaki-shodo.com/suzuri-02"
+        image-alt="硯"
+        href="#"
+        is-reversed
+      >
+        <p class="text-xl mb-2">（90分）</p>
+      </Course>
     </PageSection>
 
     <PageSection id="gallery"></PageSection>
@@ -203,10 +159,12 @@
 </template>
 
 <script>
+import Course from '@/components/Course'
 import PageSection from '@/components/PageSection'
 
 export default {
   components: {
+    Course,
     PageSection,
   },
 }
