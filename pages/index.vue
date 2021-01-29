@@ -41,9 +41,15 @@
         </p>
       </div>
       <div>
-        <img
-          src="https://static.wixstatic.com/media/f9201a_662faba766b04b9884971e28e9505970~mv2.jpg/v1/fill/w_1120,h_1240,al_c,q_85,usm_0.66_1.00_0.01/IMG_0929.webp"
+        <CldImage
+          public-id="hamasaki-shodo.com/brushes"
+          aspectRatio="4:3"
+          crop="fill"
+          effect="sharpen:100"
+          quality="auto"
+          fetchFormat="auto"
           alt="筆"
+          responsive
         />
       </div>
     </PageSection>
