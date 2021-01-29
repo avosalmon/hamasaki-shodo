@@ -123,7 +123,7 @@
     </PageSection>
 
     <PageSection id="course" class="mt-24 py-8">
-      <h3 class="mb-20 text-4xl text-center">コース</h3>
+      <h3 class="mb-10 text-4xl text-center">コース</h3>
       <p class="leading-7 md:text-center">
         いずれのコースもRiver Valleyでの少人数（3人まで）指導です。<br />
         体験講座もございます。入会金、用具代などについてはお問い合わせください。
