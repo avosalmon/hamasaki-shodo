@@ -150,6 +150,39 @@
       >
         <p class="text-xl mb-2">（90分）</p>
       </Course>
+
+      <Course
+        class="mt-20 md:mt-40"
+        title="単発ワークショップ"
+        image-path="hamasaki-shodo.com/suzuri"
+        image-alt="硯"
+        href="#"
+      >
+        <p class="text-xl mb-1">（60分〜120分）</p>
+        <p class="text-xl mb-2">※不定期</p>
+      </Course>
+
+      <Course
+        class="mt-20 md:mt-40"
+        title="筆文字依頼"
+        image-path="hamasaki-shodo.com/suzuri-02"
+        image-alt="硯"
+        href="#"
+        is-reversed
+      >
+        <p class="text-xl mb-2">（応相談）</p>
+      </Course>
+
+      <Course
+        class="mt-20 md:mt-40"
+        title="体験講座"
+        image-path="hamasaki-shodo.com/suzuri"
+        image-alt="硯"
+        href="#contact"
+        link-label="お問い合わせ"
+      >
+        <p class="text-xl mb-2">（約60分）</p>
+      </Course>
     </PageSection>
 
     <PageSection id="gallery"></PageSection>
