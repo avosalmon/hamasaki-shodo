@@ -31,6 +31,7 @@
           Singapore」では、3人までの少人数制のきめ細やかな指導によって、文字の外形的な美しさはもちろん、それに止まらない個性の光る文字を目指していきます。
         </p>
         <p>
+          <!-- TODO: extract as a component -->
           <a
             href="https://www.learning-stage.com/japanese-calligraphy/"
             target="_blank"
@@ -127,6 +128,39 @@
         いずれのコースもRiver Valleyでの少人数（3人まで）指導です。<br />
         体験講座もございます。入会金、用具代などについてはお問い合わせください。
       </p>
+
+      <!-- TODO: extract as a component -->
+      <div class="flex flex-col md:flex-row mt-20">
+        <div class="flex flex-col text-center md:justify-center md:w-1/3">
+          <p class="text-2xl mb-1">学生書道講座</p>
+          <p class="text-xl mb-1">（５才〜中学生）</p>
+          <p class="text-xl mb-2">（60分）</p>
+          <div class="hidden md:block md:mt-8">
+            <a
+              href="#"
+              class="inline-block border border-black px-7 py-3 transition-colors duration-300 hover:bg-black hover:text-white"
+              >詳細</a
+            >
+          </div>
+        </div>
+        <div class="md:w-2/3">
+          <CldImage
+            public-id="hamasaki-shodo.com/suzuri"
+            aspectRatio="16:9"
+            crop="fill"
+            effect="sharpen:100"
+            quality="auto"
+            fetchFormat="auto"
+            alt="硯"
+            responsive
+          />
+          <a
+            href="#"
+            class="w-full text-center inline-block md:hidden border border-black px-7 py-3 transition-colors duration-300 hover:bg-black hover:text-white"
+            >詳細を見る</a
+          >
+        </div>
+      </div>
     </PageSection>
 
     <PageSection id="gallery"></PageSection>
