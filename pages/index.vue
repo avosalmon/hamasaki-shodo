@@ -161,6 +161,39 @@
           >
         </div>
       </div>
+
+      <div class="flex flex-col md:flex-row mt-20 md:mt-40">
+        <div
+          class="flex flex-col text-center md:justify-center md:w-1/3 md:order-2"
+        >
+          <p class="text-2xl mb-1">大人向け講座</p>
+          <p class="text-xl mb-2">（90分）</p>
+          <div class="hidden md:block md:mt-8">
+            <a
+              href="#"
+              class="inline-block border border-black px-7 py-3 transition-colors duration-300 hover:bg-black hover:text-white"
+              >詳細</a
+            >
+          </div>
+        </div>
+        <div class="md:w-2/3 md:order-1">
+          <CldImage
+            public-id="hamasaki-shodo.com/suzuri-02"
+            aspectRatio="16:9"
+            crop="fill"
+            effect="sharpen:100"
+            quality="auto"
+            fetchFormat="auto"
+            alt="硯"
+            responsive
+          />
+          <a
+            href="#"
+            class="w-full text-center inline-block md:hidden border border-black px-7 py-3 transition-colors duration-300 hover:bg-black hover:text-white"
+            >詳細を見る</a
+          >
+        </div>
+      </div>
     </PageSection>
 
     <PageSection id="gallery"></PageSection>
