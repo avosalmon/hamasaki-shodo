@@ -12,12 +12,12 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['SakuraKeisetsu', ...defaultTheme.fontFamily.sans],
+        sans: ['A1 Gothic R', ...defaultTheme.fontFamily.sans],
       },
     },
   },
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/forms')],
 }
