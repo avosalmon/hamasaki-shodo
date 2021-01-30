@@ -187,23 +187,28 @@
 
     <PageSection id="contact" class="mt-24 py-8">
       <h3 class="mb-10 text-4xl text-center">お問い合わせ</h3>
-      <p class="leading-7 md:text-center">
+      <p class="leading-7 mb-10 md:text-center">
         （現在生徒さん募集を停止しています）<br />
         何でもお気軽にお問い合わせください。<br />
         体験講座をご希望の方はご希望のコースを明記ください。<br />
         ※3日以内に返信しております。返信がない場合は迷惑メールに振り分けられていないかご確認ください。<br />
-        ※WhatsAppでの返信をご希望の方はメッセージ欄に記載をお願いします。
+        <!-- ※WhatsAppでの返信をご希望の方はメッセージ欄に記載をお願いします。 -->
       </p>
+      <div class="flex justify-center">
+        <ContactForm class="w-full md:w-2/3" />
+      </div>
     </PageSection>
   </div>
 </template>
 
 <script>
+import ContactForm from '@/components/ContactForm'
 import Course from '@/components/Course'
 import PageSection from '@/components/PageSection'
 
 export default {
   components: {
+    ContactForm,
     Course,
     PageSection,
   },
