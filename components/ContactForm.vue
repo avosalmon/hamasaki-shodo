@@ -1,5 +1,5 @@
 <template>
-  <form action="#" method="POST" class="grid grid-cols-1 gap-y-6">
+  <form name="contact" method="POST" class="grid grid-cols-1 gap-y-6" netlify>
     <!-- TODO: extract to a component -->
     <div>
       <label for="full_name" class="sr-only">お名前</label>
