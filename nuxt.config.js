@@ -68,7 +68,24 @@ export default {
   axios: {},
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    html: {
+      // html-minifier strips `type=text` which causes an issue with @tailwindcss/forms plugin
+      // https://github.com/nuxt/nuxt.js/issues/1760
+      // https://nuxtjs.org/docs/2.x/configuration-glossary/configuration-build#htmlminify
+      minify: {
+        collapseBooleanAttributes: true,
+        decodeEntities: true,
+        minifyCSS: true,
+        minifyJS: true,
+        processConditionalComments: true,
+        removeEmptyAttributes: true,
+        removeRedundantAttributes: false,
+        trimCustomFragments: true,
+        useShortDoctype: true,
+      },
+    },
+  },
 
   // Cloudinary module configuration: https://cloudinary.nuxtjs.org/options
   cloudinary: {
