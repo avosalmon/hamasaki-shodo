@@ -53,11 +53,7 @@
       </div>
     </PageSection>
 
-    <PageSection
-      id="teacher"
-      class="mt-24 py-16 bg-gray-100"
-      :is-full-width="true"
-    >
+    <PageSection id="teacher" class="mt-24 py-16 bg-gray-100" is-full-width>
       <h3 class="mb-8 text-2xl">濱崎 麻里子</h3>
       <ul class="mb-8">
         <li class="mb-1">東京学芸大学教育学部書道専攻卒業</li>
