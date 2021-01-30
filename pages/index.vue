@@ -198,12 +198,14 @@
 </template>
 
 <script>
+import ButtonLink from '@/components/ButtonLink'
 import ContactForm from '@/components/ContactForm'
 import Course from '@/components/Course'
 import PageSection from '@/components/PageSection'
 
 export default {
   components: {
+    ButtonLink,
     ContactForm,
     Course,
     PageSection,
