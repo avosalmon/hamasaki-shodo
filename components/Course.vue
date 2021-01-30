@@ -17,7 +17,7 @@
     <div class="md:w-2/3" :class="{ 'md:order-1': isReversed }">
       <CldImage
         :public-id="imagePath"
-        aspectRatio="16:9"
+        aspectRatio="4:3"
         crop="fill"
         effect="sharpen:100"
         quality="auto"
