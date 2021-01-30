@@ -25,11 +25,13 @@
         :alt="imageAlt"
         responsive
       />
-      <a
-        :href="href"
-        class="w-full text-center inline-block md:hidden border border-black px-7 py-3 transition-colors duration-300 hover:bg-black hover:text-white"
-        >{{ linkLabel }}</a
-      >
+      <div class="flex justify-center mt-4 md:hidden">
+        <a
+          :href="href"
+          class="text-center inline-block border border-black px-7 py-3 transition-colors duration-300 hover:bg-black hover:text-white"
+          >{{ linkLabel }}</a
+        >
+      </div>
     </div>
   </div>
 </template>
