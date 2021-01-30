@@ -31,13 +31,11 @@
           Singapore」では、3人までの少人数制のきめ細やかな指導によって、文字の外形的な美しさはもちろん、それに止まらない個性の光る文字を目指していきます。
         </p>
         <p>
-          <!-- TODO: extract as a component -->
-          <a
+          <ButtonLink
             href="https://www.learning-stage.com/japanese-calligraphy/"
             target="_blank"
             rel="noopener"
-            class="inline-block border border-black px-7 py-3 transition-colors duration-300 hover:bg-black hover:text-white"
-            >Learning Stage HP</a
+            >Learning Stage HP</ButtonLink
           >
         </p>
       </div>

@@ -7,11 +7,7 @@
       <p class="text-2xl mb-1">{{ title }}</p>
       <slot></slot>
       <div class="hidden md:block md:mt-8">
-        <a
-          :href="href"
-          class="inline-block border border-black px-7 py-3 transition-colors duration-300 hover:bg-black hover:text-white"
-          >{{ linkLabel }}</a
-        >
+        <ButtonLink :href="href">{{ linkLabel }}</ButtonLink>
       </div>
     </div>
     <div class="md:w-2/3" :class="{ 'md:order-1': isReversed }">
@@ -26,18 +22,19 @@
         responsive
       />
       <div class="flex justify-center mt-4 md:hidden">
-        <a
-          :href="href"
-          class="text-center inline-block border border-black px-7 py-3 transition-colors duration-300 hover:bg-black hover:text-white"
-          >{{ linkLabel }}</a
-        >
+        <ButtonLink :href="href">{{ linkLabel }}</ButtonLink>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import ButtonLink from '@/components/ButtonLink'
+
 export default {
+  components: {
+    ButtonLink,
+  },
   props: {
     title: {
       type: String,
