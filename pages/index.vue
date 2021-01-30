@@ -190,23 +190,23 @@
         ※3日以内に返信しております。返信がない場合は迷惑メールに振り分けられていないかご確認ください。<br />
         <!-- ※WhatsAppでの返信をご希望の方はメッセージ欄に記載をお願いします。 -->
       </p>
-      <div class="flex justify-center">
+      <!-- <div class="flex justify-center">
         <ContactForm class="w-full md:w-2/3" />
-      </div>
+      </div> -->
     </PageSection>
   </div>
 </template>
 
 <script>
 import ButtonLink from '@/components/ButtonLink'
-import ContactForm from '@/components/ContactForm'
+// import ContactForm from '@/components/ContactForm'
 import Course from '@/components/Course'
 import PageSection from '@/components/PageSection'
 
 export default {
   components: {
     ButtonLink,
-    ContactForm,
+    // ContactForm,
     Course,
     PageSection,
   },
