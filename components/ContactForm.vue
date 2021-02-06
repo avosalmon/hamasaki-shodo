@@ -84,7 +84,7 @@ export default {
   data() {
     return {
       form: {
-        full_ame: '',
+        full_name: '',
         email: '',
         phone: '',
         school_year: '',
