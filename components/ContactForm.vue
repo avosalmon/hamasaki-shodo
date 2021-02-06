@@ -1,10 +1,18 @@
 <template>
-  <form name="contact" method="POST" class="grid grid-cols-1 gap-y-6" netlify>
+  <form
+    method="POST"
+    name="contact"
+    class="grid grid-cols-1 gap-y-6"
+    netlify
+    @submit.prevent="submitForm()"
+  >
+    <input type="hidden" name="form-name" value="contact" />
     <!-- TODO: extract to a component -->
     <div>
       <label for="full_name" class="sr-only">お名前</label>
       <input
         id="full_name"
+        v-model="form.fullName"
         type="text"
         name="full_name"
         autocomplete="name"
@@ -16,6 +24,7 @@
       <label for="email" class="sr-only">メールアドレス</label>
       <input
         id="email"
+        v-model="form.email"
         name="email"
         type="email"
         autocomplete="email"
@@ -27,6 +36,7 @@
       <label for="phone" class="sr-only">電話番号</label>
       <input
         id="phone"
+        v-model="form.phone"
         type="tel"
         name="phone"
         autocomplete="tel"
@@ -38,6 +48,7 @@
       <label for="school_year" class="sr-only">学年（学生の方のみ）</label>
       <input
         id="school_year"
+        v-model="form.schoolYear"
         type="text"
         name="school_year"
         class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-black focus:border-black border-gray-300"
@@ -50,6 +61,7 @@
         <div class="flex items-center">
           <input
             id="reply_via_email"
+            v-model="form.replyMethod"
             name="reply_method"
             value="email"
             type="radio"
@@ -62,6 +74,7 @@
         <div class="flex items-center">
           <input
             id="reply_via_whatsapp"
+            v-model="form.replyMethod"
             name="reply_method"
             value="whatsapp"
             type="radio"
@@ -74,6 +87,7 @@
         <div class="flex items-center">
           <input
             id="reply_via_line"
+            v-model="form.replyMethod"
             name="reply_method"
             value="line"
             type="radio"
@@ -89,6 +103,7 @@
       <label for="message" class="sr-only">メッセージを入力してください</label>
       <textarea
         id="message"
+        v-model="form.message"
         name="message"
         rows="4"
         class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-black focus:border-black border-gray-300"
@@ -105,3 +120,41 @@
     </div>
   </form>
 </template>
+
+<script>
+import axios from 'axios'
+
+export default {
+  data() {
+    return {
+      form: {
+        fullName: '',
+        email: '',
+        phone: '',
+        schoolYear: '',
+        replyMethod: '',
+        message: '',
+      },
+    }
+  },
+  methods: {
+    async submitForm() {
+      try {
+        await axios.post('/', this.encode(this.form), {
+          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        })
+        console.log('form has been submitted successfuly!')
+      } catch (error) {
+        console.log('error', error)
+      }
+    },
+    encode(data) {
+      return Object.keys(data)
+        .map(
+          (key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key])
+        )
+        .join('&')
+    },
+  },
+}
+</script>
