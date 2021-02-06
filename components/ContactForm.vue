@@ -139,8 +139,13 @@ export default {
   },
   methods: {
     async submitForm() {
+      const data = {
+        'form-name': 'contact',
+        ...this.form,
+      }
+
       try {
-        await axios.post('/', this.encode(this.form), {
+        await axios.post('/', this.encode(data), {
           headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         })
         console.log('form has been submitted successfuly!')
