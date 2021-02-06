@@ -12,7 +12,7 @@
       <label for="full_name" class="sr-only">お名前</label>
       <input
         id="full_name"
-        v-model="form.fullName"
+        v-model="form.full_name"
         type="text"
         name="full_name"
         autocomplete="name"
@@ -48,7 +48,7 @@
       <label for="school_year" class="sr-only">学年（学生の方のみ）</label>
       <input
         id="school_year"
-        v-model="form.schoolYear"
+        v-model="form.school_year"
         type="text"
         name="school_year"
         class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-black focus:border-black border-gray-300"
@@ -56,7 +56,7 @@
       />
     </div>
     <div>
-      <label for="message" class="sr-only">メッセージを入力してください</label>
+      <label for="message" class="sr-only">メッセージ</label>
       <textarea
         id="message"
         v-model="form.message"
@@ -84,10 +84,10 @@ export default {
   data() {
     return {
       form: {
-        fullName: '',
+        full_ame: '',
         email: '',
         phone: '',
-        schoolYear: '',
+        school_year: '',
         message: '',
       },
     }
