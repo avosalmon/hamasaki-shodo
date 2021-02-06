@@ -55,50 +55,6 @@
         placeholder="学年（学生の方のみ）"
       />
     </div>
-    <fieldset>
-      <legend class="block">ご希望の返信方法</legend>
-      <div class="mt-4 grid grid-cols-1 gap-y-4">
-        <div class="flex items-center">
-          <input
-            id="reply_via_email"
-            v-model="form.replyMethod"
-            name="reply_method"
-            value="email"
-            type="radio"
-            class="focus:ring-gray-700 h-4 w-4 text-black border-gray-300"
-          />
-          <label for="reply_via_email" class="ml-3">
-            <span class="block text-gray-700">Eメール</span>
-          </label>
-        </div>
-        <div class="flex items-center">
-          <input
-            id="reply_via_whatsapp"
-            v-model="form.replyMethod"
-            name="reply_method"
-            value="whatsapp"
-            type="radio"
-            class="focus:ring-gray-700 h-4 w-4 text-black border-gray-300"
-          />
-          <label for="reply_via_whatsapp" class="ml-3">
-            <span class="block text-gray-700">WhatsApp</span>
-          </label>
-        </div>
-        <div class="flex items-center">
-          <input
-            id="reply_via_line"
-            v-model="form.replyMethod"
-            name="reply_method"
-            value="line"
-            type="radio"
-            class="focus:ring-gray-700 h-4 w-4 text-black border-gray-300"
-          />
-          <label for="reply_via_line" class="ml-3">
-            <span class="block text-gray-700">Line</span>
-          </label>
-        </div>
-      </div>
-    </fieldset>
     <div>
       <label for="message" class="sr-only">メッセージを入力してください</label>
       <textarea
@@ -132,7 +88,6 @@ export default {
         email: '',
         phone: '',
         schoolYear: '',
-        replyMethod: '',
         message: '',
       },
     }
