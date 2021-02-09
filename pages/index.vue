@@ -40,12 +40,8 @@
         </p>
       </div>
       <div class="flex-1">
-        <div class="md:aspect-w-3 md:aspect-h-4">
-          <img
-            :src="messageImageUrl"
-            class="md:h-full md:object-cover"
-            alt="筆"
-          />
+        <div class="aspect-w-4 aspect-h-3 md:aspect-w-3 md:aspect-h-4">
+          <img :src="messageImageUrl" class="md:h-full object-cover" alt="筆" />
         </div>
       </div>
     </PageSection>
