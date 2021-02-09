@@ -9,17 +9,9 @@
         <br class="md:hidden" />
         <span>River Valleyの小さな教室です。</span>
       </p>
-      <p>
-        <CldImage
-          public-id="hamasaki-shodo.com/shodo"
-          aspectRatio="16:9"
-          quality="auto"
-          crop="fill"
-          fetchFormat="auto"
-          alt="はまさき書道教室"
-          responsive
-        />
-      </p>
+      <div class="aspect-w-4 aspect-h-3 md:aspect-w-16 md:aspect-h-9">
+        <img :src="mainImageUrl" class="object-cover" alt="はまさき書道教室" />
+      </div>
     </PageSection>
 
     <PageSection id="message" class="flex flex-col md:flex-row mt-12 md:mt-24">
@@ -204,6 +196,15 @@ export default {
     PageSection,
   },
   computed: {
+    mainImageUrl() {
+      return this.$cloudinary.image.url('hamasaki-shodo.com/shodo', {
+        width: 1800,
+        crop: 'fill',
+        effect: 'sharpen:100',
+        quality: 'auto',
+        fetchFormat: 'auto',
+      })
+    },
     messageImageUrl() {
       return this.$cloudinary.image.url('hamasaki-shodo.com/brushes', {
         width: 1800,
