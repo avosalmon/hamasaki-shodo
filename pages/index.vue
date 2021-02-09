@@ -23,7 +23,7 @@
     </PageSection>
 
     <PageSection id="message" class="flex flex-col md:flex-row mt-12 md:mt-24">
-      <div class="mb-12 md:mb-0 md:p-10 md:bg-gray-100">
+      <div class="flex-1 mb-12 md:mb-0 md:p-10 md:bg-gray-100">
         <p class="leading-7 mb-4 md:mb-12">
           文字を上手に書きたい、美しく書きたい、という思いは、字を書きはじめたこどもから大人まで、多くの人が心の内に持っている願いではないでしょうか。<br />
           文字の美しさは、文字の形の良さだけを指すものではありません。その線をかたちづくる”一筆一筆”に美しさが宿っていきます。<br />
@@ -39,17 +39,14 @@
           >
         </p>
       </div>
-      <div>
-        <CldImage
-          public-id="hamasaki-shodo.com/brushes"
-          aspectRatio="4:3"
-          crop="fill"
-          effect="sharpen:100"
-          quality="auto"
-          fetchFormat="auto"
-          alt="筆"
-          responsive
-        />
+      <div class="flex-1">
+        <div class="md:aspect-w-3 md:aspect-h-4">
+          <img
+            :src="messageImageUrl"
+            class="md:h-full md:object-cover"
+            alt="筆"
+          />
+        </div>
       </div>
     </PageSection>
 
@@ -209,6 +206,17 @@ export default {
     ContactForm,
     Course,
     PageSection,
+  },
+  computed: {
+    messageImageUrl() {
+      return this.$cloudinary.image.url('hamasaki-shodo.com/brushes', {
+        width: 1800,
+        crop: 'fill',
+        effect: 'sharpen:100',
+        quality: 'auto',
+        fetchFormat: 'auto',
+      })
+    },
   },
 }
 </script>
