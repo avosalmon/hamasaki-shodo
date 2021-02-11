@@ -3,7 +3,7 @@
     <div class="flex-1 -mx-4 md:mx-0">
       <div class="md:hidden">
         <CldImage
-          public-id="hamasaki-shodo.com/suzuri"
+          public-id="hamasaki-shodo.com/postcard"
           aspectRatio="4:3"
           crop="fill"
           effect="sharpen:100"
@@ -15,7 +15,7 @@
       </div>
       <div class="hidden md:block">
         <CldImage
-          public-id="hamasaki-shodo.com/suzuri"
+          public-id="hamasaki-shodo.com/postcard"
           aspectRatio="1:1"
           crop="fill"
           effect="sharpen:100"

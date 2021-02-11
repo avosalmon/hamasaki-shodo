@@ -133,7 +133,7 @@
       <Course
         class="mt-20 md:mt-40"
         title="単発ワークショップ"
-        image-path="hamasaki-shodo.com/suzuri"
+        image-path="hamasaki-shodo.com/postcard"
         image-alt="硯"
         href="/courses/workshop"
       >
@@ -144,7 +144,7 @@
       <Course
         class="mt-20 md:mt-40"
         title="筆文字依頼"
-        image-path="hamasaki-shodo.com/suzuri-02"
+        image-path="hamasaki-shodo.com/work"
         image-alt="硯"
         href="/courses/order"
         is-reversed
@@ -155,7 +155,7 @@
       <Course
         class="mt-20 md:mt-40"
         title="体験講座"
-        image-path="hamasaki-shodo.com/suzuri"
+        image-path="hamasaki-shodo.com/shodo-02"
         image-alt="硯"
         href="/courses/trial"
       >
