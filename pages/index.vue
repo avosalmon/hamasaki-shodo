@@ -146,7 +146,7 @@
         title="筆文字依頼"
         image-path="hamasaki-shodo.com/suzuri-02"
         image-alt="硯"
-        href="#"
+        href="/courses/order"
         is-reversed
       >
         <p class="text-xl mb-2">（応相談）</p>
