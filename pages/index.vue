@@ -113,9 +113,9 @@
         title="学生書道講座"
         image-path="hamasaki-shodo.com/suzuri"
         image-alt="硯"
-        href="#"
+        href="/courses/kids"
       >
-        <p class="text-xl mb-1">（５才〜中学生）</p>
+        <p class="text-xl mb-1">（5才〜中学生）</p>
         <p class="text-xl mb-2">（60分）</p>
       </Course>
 
@@ -124,7 +124,7 @@
         title="大人向け講座"
         image-path="hamasaki-shodo.com/suzuri-02"
         image-alt="硯"
-        href="#"
+        href="/courses/adults"
         is-reversed
       >
         <p class="text-xl mb-2">（90分）</p>
@@ -135,7 +135,7 @@
         title="単発ワークショップ"
         image-path="hamasaki-shodo.com/suzuri"
         image-alt="硯"
-        href="#"
+        href="/courses/workshop"
       >
         <p class="text-xl mb-1">（60分〜120分）</p>
         <p class="text-xl mb-2">※不定期</p>
@@ -157,8 +157,7 @@
         title="体験講座"
         image-path="hamasaki-shodo.com/suzuri"
         image-alt="硯"
-        href="#contact"
-        link-label="お問い合わせ"
+        href="/courses/trial"
       >
         <p class="text-xl mb-2">（約60分）</p>
       </Course>
