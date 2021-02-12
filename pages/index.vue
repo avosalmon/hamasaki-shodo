@@ -38,36 +38,70 @@
       </div>
     </PageSection>
 
-    <PageSection id="teacher" class="mt-24 py-16 bg-gray-100" is-full-width>
-      <h3 class="mb-8 text-2xl">濱崎 麻里子</h3>
-      <ul class="mb-8">
-        <li class="mb-1">東京学芸大学教育学部書道専攻卒業</li>
-        <li class="mb-1">中学校教諭一種免許状（国語）取得</li>
-        <li>高等学校教諭一種免許状（書道）取得</li>
-      </ul>
-      <dl class="mb-8">
-        <dt class="mb-1">2011-2013</dt>
-        <dd class="mb-1">埼玉県私立中学校にて国語・書写を指導</dd>
-        <dt class="mb-1">2013-2020</dt>
-        <dd class="mb-1">東京都立高等学校にて書道を指導</dd>
-        <dt class="mb-1">2020.7</dt>
-        <dd>来星</dd>
-      </dl>
-      <ul>
-        <li class="mb-1">2011 書の交差展（やさしい予感/目黒）</li>
-        <li class="mb-1">
-          2013 横浜赤レンガ２０１３-sho is it!-（横浜赤レンガ倉庫一号館/横浜）
-        </li>
-        <li class="mb-1">
-          2015 藤華展（鳩居堂/銀座）・髙墨展（日展新会館/日暮里）
-        </li>
-        <li class="mb-1">2017 藤華展（鳩居堂/銀座）</li>
-        <li class="mb-1">
-          2019 藤華展（鳩居堂/銀座）・古筆を学ぶ五人展（日展新会館/日暮里）
-        </li>
-        <li>他 多数グループ展に出品</li>
-      </ul>
-    </PageSection>
+    <section
+      id="teacher"
+      class="w-full mx-auto mt-24 px-4 py-4 bg-gray-100 md:py-16"
+    >
+      <div class="flex flex-col mx-auto md:flex-row md:w-2/3 lg:w-3/5">
+        <div class="flex-1">
+          <div class="md:hidden">
+            <CldImage
+              public-id="hamasaki-shodo.com/teacher"
+              aspectRatio="4:3"
+              crop="fill"
+              effect="sharpen:100"
+              quality="auto"
+              fetchFormat="auto"
+              alt="硯"
+              responsive
+            />
+          </div>
+          <div class="hidden md:block">
+            <CldImage
+              public-id="hamasaki-shodo.com/teacher"
+              aspectRatio="1:1"
+              crop="fill"
+              effect="sharpen:100"
+              quality="auto"
+              fetchFormat="auto"
+              alt="硯"
+              responsive
+            />
+          </div>
+        </div>
+        <div class="flex-1 py-4 md:px-10 md:py-0">
+          <h3 class="mb-8 text-2xl">濱崎 麻里子</h3>
+          <ul class="mb-8">
+            <li class="mb-1">東京学芸大学教育学部書道専攻卒業</li>
+            <li class="mb-1">中学校教諭一種免許状（国語）取得</li>
+            <li>高等学校教諭一種免許状（書道）取得</li>
+          </ul>
+          <dl class="mb-8">
+            <dt class="mb-1">2011-2013</dt>
+            <dd class="mb-1">埼玉県私立中学校にて国語・書写を指導</dd>
+            <dt class="mb-1">2013-2020</dt>
+            <dd class="mb-1">東京都立高等学校にて書道を指導</dd>
+            <dt class="mb-1">2020.7</dt>
+            <dd>来星</dd>
+          </dl>
+          <ul>
+            <li class="mb-1">2011 書の交差展（やさしい予感/目黒）</li>
+            <li class="mb-1">
+              2013 横浜赤レンガ２０１３-sho is
+              it!-（横浜赤レンガ倉庫一号館/横浜）
+            </li>
+            <li class="mb-1">
+              2015 藤華展（鳩居堂/銀座）・髙墨展（日展新会館/日暮里）
+            </li>
+            <li class="mb-1">2017 藤華展（鳩居堂/銀座）</li>
+            <li class="mb-1">
+              2019 藤華展（鳩居堂/銀座）・古筆を学ぶ五人展（日展新会館/日暮里）
+            </li>
+            <li>他 多数グループ展に出品</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
     <PageSection id="news" class="mt-24 py-8">
       <h3 class="mb-20 text-4xl text-center">ニュース</h3>
