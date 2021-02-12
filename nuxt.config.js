@@ -70,7 +70,7 @@ export default {
 
   // Sitemap module configuration: https://sitemap.nuxtjs.org
   sitemap: {
-    hostname: process.env.BASE_URL,
+    hostname: process.env.BASE_URL || 'http://localhost:3000',
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
