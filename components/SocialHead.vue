@@ -22,7 +22,8 @@ export default {
     },
     imageUrl: {
       type: String,
-      required: true,
+      default:
+        'https://res.cloudinary.com/avosalmon/image/upload/v1611417243/hamasaki-shodo.com/shodo.jpg',
     },
   },
 
