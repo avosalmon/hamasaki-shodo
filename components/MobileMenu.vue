@@ -72,6 +72,7 @@
                 <a
                   href="/#message"
                   class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
+                  @click="close"
                 >
                   <span class="ml-3 text-base font-medium text-gray-900">
                     ごあいさつ
@@ -81,6 +82,7 @@
                 <a
                   href="/#teacher"
                   class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
+                  @click="close"
                 >
                   <span class="ml-3 text-base font-medium text-gray-900">
                     講師紹介
@@ -90,6 +92,7 @@
                 <a
                   href="/#news"
                   class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
+                  @click="close"
                 >
                   <span class="ml-3 text-base font-medium text-gray-900">
                     ニュース
@@ -99,6 +102,7 @@
                 <a
                   href="/#course"
                   class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
+                  @click="close"
                 >
                   <span class="ml-3 text-base font-medium text-gray-900">
                     コース
@@ -108,6 +112,7 @@
                 <a
                   href="/#gallery"
                   class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
+                  @click="close"
                 >
                   <span class="ml-3 text-base font-medium text-gray-900">
                     ギャラリー
@@ -117,6 +122,7 @@
                 <a
                   href="/#contact"
                   class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
+                  @click="close"
                 >
                   <span class="ml-3 text-base font-medium text-gray-900">
                     お問い合わせ
@@ -128,6 +134,7 @@
                   target="_blank"
                   rel="noopener"
                   class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
+                  @click="close"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
