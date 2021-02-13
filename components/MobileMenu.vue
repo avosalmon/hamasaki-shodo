@@ -134,6 +134,7 @@
                   target="_blank"
                   rel="noopener"
                   class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
+                  aria-label="Instagram"
                   @click="close"
                 >
                   <svg

@@ -55,6 +55,7 @@
           target="_blank"
           rel="noopener"
           class="text-base font-medium text-gray-700 hover:text-gray-900"
+          aria-label="Instagram"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -84,6 +85,7 @@
           href="https://www.instagram.com/sg_shodo_mh/"
           target="_blank"
           rel="noopener"
+          aria-label="Instagram"
           class="text-base font-medium text-gray-700 hover:text-gray-900"
         >
           <svg
