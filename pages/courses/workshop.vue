@@ -32,7 +32,7 @@
       <p class="text-xl mb-8 text-center">※不定期</p>
       <p class="leading-7 md:text-center">
         不定期・単発開催のワークショップです。<br />
-        開催情報は<a href="/news" class="underline">「お知らせ」</a
+        開催情報は<a href="/#news" class="underline">「お知らせ」</a
         >欄にて公開いたします。<br />
         団体様で開催ご希望の方はお問い合わせください。
       </p>
