@@ -4,7 +4,10 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'はまさき書道教室 シンガポール',
+    titleTemplate: (titleChunk) => {
+      const siteName = process.env.SITE_NAME
+      return titleChunk ? `${titleChunk} - ${siteName}` : siteName
+    },
     htmlAttrs: {
       lang: 'ja',
     },
