@@ -71,7 +71,7 @@
           </div>
         </div>
         <div class="flex-1 py-4 md:px-10 md:py-0">
-          <h3 class="mb-8 text-2xl">濱崎 麻里子</h3>
+          <h2 class="mb-8 text-2xl">濱崎 麻里子</h2>
           <ul class="mb-8">
             <li class="mb-1">東京学芸大学教育学部書道専攻卒業</li>
             <li class="mb-1">中学校教諭一種免許状（国語）取得</li>
@@ -105,7 +105,7 @@
     </section>
 
     <PageSection id="news" class="mt-24 py-8">
-      <h3 class="mb-20 text-4xl text-center">ニュース</h3>
+      <h2 class="mb-20 text-4xl text-center">ニュース</h2>
       <ul>
         <!-- TODO: Extract as "News" component -->
         <li class="leading-7 mb-24">
@@ -137,7 +137,7 @@
     </PageSection>
 
     <PageSection id="course" class="mt-24 py-8">
-      <h3 class="mb-10 text-4xl text-center">コース</h3>
+      <h2 class="mb-10 text-4xl text-center">コース</h2>
       <p class="leading-7 md:text-center">
         いずれのコースもRiver Valleyでの少人数（3人まで）指導です。<br />
         体験講座もございます。入会金、用具代などについてはお問い合わせください。
@@ -201,7 +201,7 @@
     <PageSection id="gallery"></PageSection>
 
     <PageSection id="contact" class="mt-24 py-8">
-      <h3 class="mb-10 text-4xl text-center">お問い合わせ</h3>
+      <h2 class="mb-10 text-4xl text-center">お問い合わせ</h2>
       <p class="leading-7 mb-10 md:text-center">
         （現在生徒さん募集を停止しています）<br />
         何でもお気軽にお問い合わせください。<br />
