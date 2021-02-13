@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header class="relative bg-white">
+    <header class="fixed bg-white w-full z-10">
       <div
         class="flex justify-between items-center border-b-2 border-gray-100 px-4 py-6 sm:px-6 md:justify-center"
       >
@@ -75,7 +75,7 @@
         </a>
       </nav>
     </header>
-    <main class="py-10">
+    <main class="pt-32 pb-10 md:pt-52">
       <Nuxt />
     </main>
     <footer class="mx-auto w-full md:w-2/3 lg:w-3/5 px-4 py-10 text-center">
