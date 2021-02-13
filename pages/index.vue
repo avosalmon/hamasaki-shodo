@@ -52,7 +52,7 @@
               effect="sharpen:100"
               quality="auto"
               fetchFormat="auto"
-              alt="硯"
+              alt="濱崎麻里子"
               responsive
             />
           </div>
@@ -64,7 +64,7 @@
               effect="sharpen:100"
               quality="auto"
               fetchFormat="auto"
-              alt="硯"
+              alt="濱崎麻里子"
               responsive
             />
           </div>
@@ -168,7 +168,7 @@
         class="mt-20 md:mt-40"
         title="単発ワークショップ"
         image-path="hamasaki-shodo.com/postcard"
-        image-alt="硯"
+        image-alt="ワークショップ"
         href="/courses/workshop"
       >
         <p class="text-xl mb-1">（60分〜120分）</p>
@@ -179,7 +179,7 @@
         class="mt-20 md:mt-40"
         title="筆文字依頼"
         image-path="hamasaki-shodo.com/work"
-        image-alt="硯"
+        image-alt="筆文字依頼"
         href="/courses/order"
         is-reversed
       >
@@ -190,7 +190,7 @@
         class="mt-20 md:mt-40"
         title="体験講座"
         image-path="hamasaki-shodo.com/shodo-02"
-        image-alt="硯"
+        image-alt="体験講座"
         href="/courses/trial"
       >
         <p class="text-xl mb-2">（約60分）</p>
