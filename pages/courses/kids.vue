@@ -1,5 +1,6 @@
 <template>
   <div class="flex flex-col px-4 md:flex-row md:container md:mx-auto md:px-0">
+    <SocialHead title="学生書道講座" page-path="/courses/kids"></SocialHead>
     <div class="flex-1 -mx-4 md:mx-0">
       <div class="md:hidden">
         <CldImage
@@ -48,10 +49,12 @@
 
 <script>
 import ButtonLink from '@/components/ButtonLink'
+import SocialHead from '@/components/SocialHead'
 
 export default {
   components: {
     ButtonLink,
+    SocialHead,
   },
 }
 </script>
