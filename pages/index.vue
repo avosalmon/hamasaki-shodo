@@ -1,5 +1,6 @@
 <template>
   <div>
+    <SocialHead :image-url="mainImageUrl"></SocialHead>
     <PageSection class="text-center">
       <p class="my-3 text-4xl md:text-6xl">はまさき書道教室</p>
       <p class="mb-4 text-4xl md:text-6xl">Singapore</p>
@@ -220,6 +221,7 @@ import ButtonLink from '@/components/ButtonLink'
 import ContactForm from '@/components/ContactForm'
 import Course from '@/components/Course'
 import PageSection from '@/components/PageSection'
+import SocialHead from '@/components/SocialHead'
 
 export default {
   components: {
@@ -227,6 +229,7 @@ export default {
     ContactForm,
     Course,
     PageSection,
+    SocialHead,
   },
   computed: {
     mainImageUrl() {

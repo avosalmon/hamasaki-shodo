@@ -4,22 +4,12 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: (titleChunk) => {
-      const siteName = process.env.SITE_NAME
-      return titleChunk ? `${titleChunk} - ${siteName}` : siteName
-    },
     htmlAttrs: {
       lang: 'ja',
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      {
-        hid: 'description',
-        name: 'description',
-        content:
-          'はまさき書道教室シンガポールでは、マンツーマンから少人数で、幼稚園生から大人まできめ細やかに指導いたします。',
-      },
       {
         hid: 'keywords',
         name: 'keywords',
@@ -34,7 +24,7 @@ export default {
       },
       {
         rel: 'canonical',
-        href: 'https://www.hamasaki-shodo.com',
+        href: process.env.BASE_URL,
       },
     ],
     script: [
