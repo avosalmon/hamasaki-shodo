@@ -92,21 +92,21 @@
       />
     </div>
     <div>
-      <label for="message" class="sr-only">メッセージ</label>
+      <label for="body" class="sr-only">メッセージ</label>
       <textarea
-        id="message"
-        v-model="$v.form.message.$model"
-        name="message"
+        id="body"
+        v-model="$v.form.body.$model"
+        name="body"
         rows="4"
         class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-black focus:border-black border-gray-300"
         :class="{
           'border-red-600 text-red-600 placeholder-red-600 focus:outline-none focus:ring-red-500 focus:border-red-500':
-            $v.form.message.$error,
+            $v.form.body.$error,
         }"
         placeholder="メッセージ"
       ></textarea>
       <p
-        v-show="$v.form.message.$dirty && !$v.form.message.required"
+        v-show="$v.form.body.$dirty && !$v.form.body.required"
         class="mt-2 text-sm text-red-600"
       >
         メッセージを入力してください。
@@ -153,7 +153,7 @@ export default {
         email: '',
         phone: '',
         school_year: '',
-        message: '',
+        body: '',
       },
       isSuccess: false,
       isError: false,
@@ -171,7 +171,7 @@ export default {
       phone: {
         required,
       },
-      message: {
+      body: {
         required,
       },
     },
