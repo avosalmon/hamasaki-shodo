@@ -15,7 +15,8 @@
       </div>
     </PageSection>
 
-    <PageSection id="message" class="flex flex-col md:flex-row mt-12 md:mt-24">
+    <div id="message"></div>
+    <PageSection class="flex flex-col md:flex-row mt-12 md:mt-24">
       <div class="flex-1 mb-12 md:mb-0 md:p-10 md:bg-gray-100">
         <p class="leading-7 mb-4 md:mb-12">
           文字を上手に書きたい、美しく書きたい、という思いは、字を書きはじめたこどもから大人まで、多くの人が心の内に持っている願いではないでしょうか。<br />
@@ -39,10 +40,8 @@
       </div>
     </PageSection>
 
-    <section
-      id="teacher"
-      class="w-full mx-auto mt-24 px-4 py-4 bg-gray-100 md:py-16"
-    >
+    <dir id="teacher"></dir>
+    <section class="w-full mx-auto mt-24 px-4 py-4 bg-gray-100 md:py-16">
       <div class="flex flex-col mx-auto md:flex-row md:w-2/3 lg:w-3/5">
         <div class="flex-1">
           <div class="md:hidden">
@@ -104,7 +103,8 @@
       </div>
     </section>
 
-    <PageSection id="news" class="mt-24 py-8">
+    <div id="news"></div>
+    <PageSection class="mt-24 py-8">
       <h2 class="mb-20 text-4xl text-center">ニュース</h2>
       <ul>
         <!-- TODO: Extract as "News" component -->
@@ -136,7 +136,8 @@
       </ul>
     </PageSection>
 
-    <PageSection id="course" class="mt-24 py-8">
+    <div id="course"></div>
+    <PageSection class="mt-24 py-8">
       <h2 class="mb-10 text-4xl text-center">コース</h2>
       <p class="leading-7 md:text-center">
         いずれのコースもRiver Valleyでの少人数（3人まで）指導です。<br />
@@ -198,9 +199,11 @@
       </Course>
     </PageSection>
 
-    <PageSection id="gallery"></PageSection>
+    <div id="gallery"></div>
+    <PageSection></PageSection>
 
-    <PageSection id="contact" class="mt-24 py-8">
+    <div id="contact"></div>
+    <PageSection class="mt-24 py-8">
       <h2 class="mb-10 text-4xl text-center">お問い合わせ</h2>
       <p class="leading-7 mb-10 md:text-center">
         （現在生徒さん募集を停止しています）<br />
