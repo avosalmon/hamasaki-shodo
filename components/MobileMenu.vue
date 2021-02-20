@@ -72,7 +72,7 @@
                 <NuxtLink
                   to="/#message"
                   class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
-                  @click="close"
+                  @click.native="close"
                 >
                   <span class="ml-3 text-base font-medium text-gray-900">
                     ごあいさつ
@@ -82,7 +82,7 @@
                 <NuxtLink
                   to="/#teacher"
                   class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
-                  @click="close"
+                  @click.native="close"
                 >
                   <span class="ml-3 text-base font-medium text-gray-900">
                     講師紹介
@@ -92,7 +92,7 @@
                 <NuxtLink
                   to="/#news"
                   class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
-                  @click="close"
+                  @click.native="close"
                 >
                   <span class="ml-3 text-base font-medium text-gray-900">
                     ニュース
@@ -102,7 +102,7 @@
                 <NuxtLink
                   to="/#course"
                   class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
-                  @click="close"
+                  @click.native="close"
                 >
                   <span class="ml-3 text-base font-medium text-gray-900">
                     コース
@@ -112,7 +112,7 @@
                 <NuxtLink
                   to="/#gallery"
                   class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
-                  @click="close"
+                  @click.native="close"
                 >
                   <span class="ml-3 text-base font-medium text-gray-900">
                     ギャラリー
@@ -122,7 +122,7 @@
                 <NuxtLink
                   to="/#contact"
                   class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
-                  @click="close"
+                  @click.native="close"
                 >
                   <span class="ml-3 text-base font-medium text-gray-900">
                     お問い合わせ
