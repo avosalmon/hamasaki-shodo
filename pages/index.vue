@@ -34,7 +34,9 @@
         </p>
       </div>
       <div class="flex-1">
-        <div class="aspect-w-4 aspect-h-3 md:aspect-w-3 md:aspect-h-4">
+        <div
+          class="aspect-w-4 aspect-h-3 md:aspect-w-3 md:aspect-h-4 md:h-full"
+        >
           <img :src="messageImageUrl" class="md:h-full object-cover" alt="筆" />
         </div>
       </div>
