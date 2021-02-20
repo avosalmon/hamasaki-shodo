@@ -5,7 +5,7 @@
         class="flex justify-between items-center border-b-2 border-gray-100 px-4 py-6 sm:px-6 md:justify-center"
       >
         <h1 class="text-xl">
-          <a href="/">はまさき書道教室 Singapore</a>
+          <NuxtLink to="/">はまさき書道教室 Singapore</NuxtLink>
         </h1>
         <div class="-mr-2 -my-2 md:hidden">
           <MobileMenu></MobileMenu>
@@ -14,42 +14,42 @@
       <nav
         class="hidden md:flex justify-center items-center bg-gray-100 py-4 space-x-6"
       >
-        <a
-          href="/#message"
+        <NuxtLink
+          to="/#message"
           class="text-base font-medium text-gray-700 hover:text-gray-900"
         >
           ごあいさつ
-        </a>
-        <a
-          href="/#teacher"
+        </NuxtLink>
+        <NuxtLink
+          to="/#teacher"
           class="text-base font-medium text-gray-700 hover:text-gray-900"
         >
           講師紹介
-        </a>
-        <a
-          href="/#news"
+        </NuxtLink>
+        <NuxtLink
+          to="/#news"
           class="text-base font-medium text-gray-700 hover:text-gray-900"
         >
           ニュース
-        </a>
-        <a
-          href="/#course"
+        </NuxtLink>
+        <NuxtLink
+          to="/#course"
           class="text-base font-medium text-gray-700 hover:text-gray-900"
         >
           コース
-        </a>
-        <a
-          href="/#gallery"
+        </NuxtLink>
+        <NuxtLink
+          to="/#gallery"
           class="text-base font-medium text-gray-700 hover:text-gray-900"
         >
           ギャラリー
-        </a>
-        <a
-          href="/#contact"
+        </NuxtLink>
+        <NuxtLink
+          to="/#contact"
           class="text-base font-medium text-gray-700 hover:text-gray-900"
         >
           お問い合わせ
-        </a>
+        </NuxtLink>
         <a
           href="https://www.instagram.com/sg_shodo_mh/"
           target="_blank"

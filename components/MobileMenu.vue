@@ -69,65 +69,65 @@
             </div>
             <div class="mt-6">
               <nav class="grid gap-y-8">
-                <a
-                  href="/#message"
+                <NuxtLink
+                  to="/#message"
                   class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
                   @click="close"
                 >
                   <span class="ml-3 text-base font-medium text-gray-900">
                     ごあいさつ
                   </span>
-                </a>
+                </NuxtLink>
 
-                <a
-                  href="/#teacher"
+                <NuxtLink
+                  to="/#teacher"
                   class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
                   @click="close"
                 >
                   <span class="ml-3 text-base font-medium text-gray-900">
                     講師紹介
                   </span>
-                </a>
+                </NuxtLink>
 
-                <a
-                  href="/#news"
+                <NuxtLink
+                  to="/#news"
                   class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
                   @click="close"
                 >
                   <span class="ml-3 text-base font-medium text-gray-900">
                     ニュース
                   </span>
-                </a>
+                </NuxtLink>
 
-                <a
-                  href="/#course"
+                <NuxtLink
+                  to="/#course"
                   class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
                   @click="close"
                 >
                   <span class="ml-3 text-base font-medium text-gray-900">
                     コース
                   </span>
-                </a>
+                </NuxtLink>
 
-                <a
-                  href="/#gallery"
+                <NuxtLink
+                  to="/#gallery"
                   class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
                   @click="close"
                 >
                   <span class="ml-3 text-base font-medium text-gray-900">
                     ギャラリー
                   </span>
-                </a>
+                </NuxtLink>
 
-                <a
-                  href="/#contact"
+                <NuxtLink
+                  to="/#contact"
                   class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
                   @click="close"
                 >
                   <span class="ml-3 text-base font-medium text-gray-900">
                     お問い合わせ
                   </span>
-                </a>
+                </NuxtLink>
 
                 <a
                   href="https://www.instagram.com/sg_shodo_mh/"
