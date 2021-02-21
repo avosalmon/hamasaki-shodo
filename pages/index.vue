@@ -118,28 +118,33 @@
       <ul>
         <!-- TODO: Extract as "News" component -->
         <li class="leading-7 mb-24">
-          <p class="mb-8 text-2xl">大人クラス生徒さん募集</p>
-          <time class="inline-block mb-8 text-lg" datetime="2021-01-24">
-            2021年1月24日
+          <p class="mb-8 text-2xl">（締め切りました）大人クラス生徒さん募集</p>
+          <time class="inline-block mb-8 text-lg" datetime="2021-01-28">
+            2021年1月28日
           </time>
           <p>
-            募集を一時停止していた大人のクラスですが、下記の曜日で募集を再開いたします。（）内は定員です。<br />
-            火曜 午後2時〜（1名）<br />
-            午後4時〜（1名）<br />
-            水曜 午後2時〜（2名）<br />
-            金曜 午前10時〜（2名）<br />
-            午後2時〜（2名）<br /><br />
-            入会・体験講座ご希望の方はお問い合わせフォームよりご連絡ください。
+            募集再開の情報はこちらのニュース欄またはインスタグラム（<a
+              href="https://www.instagram.com/sg_shodo_mh/"
+              class="underline"
+              target="_blank"
+              rel="noopener"
+              >@sg_shodo_mh</a
+            >）にて公開いたします。
           </p>
         </li>
         <li class="leading-7">
-          <p class="mb-8 text-2xl">学生クラス生徒さん募集</p>
-          <time class="inline-block mb-8 text-lg" datetime="2021-01-24">
-            2021年1月24日
+          <p class="mb-8 text-2xl">（締め切りました）学生クラス生徒さん募集</p>
+          <time class="inline-block mb-8 text-lg" datetime="2021-01-28">
+            2021年1月28日
           </time>
           <p>
-            金曜日17：00〜のクラスの生徒さんを募集いたします。2名まで受け入れ可能です。<br />
-            入会・体験講座をご希望の方はお問い合わせフォームよりご連絡ください。
+            募集再開の情報はこちらのニュース欄またはインスタグラム（<a
+              href="https://www.instagram.com/sg_shodo_mh/"
+              class="underline"
+              target="_blank"
+              rel="noopener"
+              >@sg_shodo_mh</a
+            >）にて公開いたします。
           </p>
         </li>
       </ul>
