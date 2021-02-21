@@ -34,6 +34,13 @@ export default {
     ],
   },
 
+  env: {
+    SITE_NAME: process.env.SITE_NAME,
+    BASE_URL: process.env.BASE_URL,
+    TYPESQUARE_TOKEN: process.env.TYPESQUARE_TOKEN,
+    CLOUDINARY_ID: process.env.CLOUDINARY_ID,
+  },
+
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: ['@/assets/css/main.css'],
 
