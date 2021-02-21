@@ -37,7 +37,12 @@
         <div
           class="aspect-w-4 aspect-h-3 md:aspect-w-3 md:aspect-h-4 md:h-full"
         >
-          <img :src="messageImageUrl" class="md:h-full object-cover" alt="筆" />
+          <img
+            :src="messageImageUrl"
+            class="md:h-full object-cover"
+            alt="筆"
+            loading="lazy"
+          />
         </div>
       </div>
     </PageSection>
@@ -55,6 +60,7 @@
               quality="auto"
               fetchFormat="auto"
               alt="濱崎麻里子"
+              loading="lazy"
               responsive
             />
           </div>
@@ -67,6 +73,7 @@
               quality="auto"
               fetchFormat="auto"
               alt="濱崎麻里子"
+              loading="lazy"
               responsive
             />
           </div>
