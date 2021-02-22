@@ -23,7 +23,7 @@
     "@nuxtjs/axios": "^5.12.5",
     "@nuxtjs/cloudinary": "^1.0.3-beta-3",
     "core-js": "^3.8.2",
-    "nuxt": "^2.14.12",
+    "nuxt": "^2.15.1",
     "vuelidate": "^0.7.6"
   },
   "devDependencies": {
