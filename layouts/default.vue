@@ -39,10 +39,10 @@
           コース
         </a>
         <a
-          href="/#gallery"
+          href="/courses/trial"
           class="text-base font-medium text-gray-700 hover:text-gray-900"
         >
-          ギャラリー
+          体験講座
         </a>
         <a
           href="/#contact"

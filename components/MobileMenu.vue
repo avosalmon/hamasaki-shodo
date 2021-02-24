@@ -110,12 +110,12 @@
                 </a>
 
                 <a
-                  href="/#gallery"
+                  href="/courses/trial"
                   class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
                   @click="close"
                 >
                   <span class="ml-3 text-base font-medium text-gray-900">
-                    ギャラリー
+                    体験講座
                   </span>
                 </a>
 
