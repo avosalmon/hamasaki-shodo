@@ -29,7 +29,7 @@ export default {
     ],
     script: [
       {
-        src: `//typesquare.com/3/tsst/script/ja/typesquare.js?${process.env.TYPESQUARE_TOKEN}`,
+        src: `//typesquare.com/3/tsst/script/ja/typesquare.js?${process.env.TYPESQUARE_TOKEN}&fadein=100`,
         defer: true,
       },
     ],
