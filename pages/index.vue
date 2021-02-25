@@ -217,18 +217,8 @@
     <PageSection></PageSection>
 
     <div id="contact" class="mb-24"></div>
-    <PageSection class="py-8">
-      <h2 class="mb-10 text-4xl text-center">お問い合わせ</h2>
-      <p class="leading-7 mb-10 md:text-center">
-        （現在生徒さん募集を停止しています）<br />
-        何でもお気軽にお問い合わせください。<br />
-        体験講座をご希望の方はご希望のコースを明記ください。<br />
-        ※3日以内に返信しております。返信がない場合は、迷惑メールに振り分けられていないかご確認ください。<br />
-        ※WhatsAppでの返信をご希望の方は、メッセージ欄にその旨ご記載をお願いします。
-      </p>
-      <div class="flex justify-center">
-        <ContactForm class="w-full md:w-2/3" />
-      </div>
+    <PageSection class="flex justify-center py-8">
+      <ContactForm class="w-full md:w-2/3" />
     </PageSection>
   </div>
 </template>
