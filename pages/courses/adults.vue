@@ -46,6 +46,9 @@
         </p>
         <p class="leading-7 md:text-center">詳細はお問い合わせください。</p>
         <div class="flex justify-center mt-10">
+          <ButtonLink href="/courses/trial" theme="black" class="mr-2"
+            >体験講座</ButtonLink
+          >
           <ButtonLink href="#contact">お問い合わせ</ButtonLink>
         </div>
       </div>
