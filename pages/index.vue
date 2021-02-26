@@ -120,7 +120,7 @@
         <!-- TODO: Extract as "News" component -->
         <li class="leading-8 mb-24">
           <p class="mb-8 text-2xl">（締め切りました）大人クラス生徒さん募集</p>
-          <time class="inline-block mb-8 text-lg" datetime="2021-01-28">
+          <time class="block mb-8 text-lg" datetime="2021-01-28">
             2021年1月28日
           </time>
           <p>
@@ -135,7 +135,7 @@
         </li>
         <li class="leading-8">
           <p class="mb-8 text-2xl">（締め切りました）学生クラス生徒さん募集</p>
-          <time class="inline-block mb-8 text-lg" datetime="2021-01-28">
+          <time class="block mb-8 text-lg" datetime="2021-01-28">
             2021年1月28日
           </time>
           <p>
