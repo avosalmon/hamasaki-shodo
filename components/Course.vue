@@ -19,6 +19,7 @@
         quality="auto"
         fetchFormat="auto"
         :alt="imageAlt"
+        loading="lazy"
         responsive
       />
       <div class="flex justify-center mt-4 md:hidden">
