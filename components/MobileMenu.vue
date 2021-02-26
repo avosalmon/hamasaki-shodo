@@ -69,73 +69,73 @@
             </div>
             <div class="mt-6">
               <nav class="grid gap-y-8">
-                <a
-                  href="/#message"
+                <NuxtLink
+                  to="/#message"
                   class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
-                  @click="close"
+                  @click.native="close"
                 >
                   <span class="ml-3 text-base font-medium text-gray-900">
                     ごあいさつ
                   </span>
-                </a>
+                </NuxtLink>
 
-                <a
-                  href="/#teacher"
+                <NuxtLink
+                  to="/#teacher"
                   class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
-                  @click="close"
+                  @click.native="close"
                 >
                   <span class="ml-3 text-base font-medium text-gray-900">
                     講師紹介
                   </span>
-                </a>
+                </NuxtLink>
 
-                <a
-                  href="/#news"
+                <NuxtLink
+                  to="/#news"
                   class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
-                  @click="close"
+                  @click.native="close"
                 >
                   <span class="ml-3 text-base font-medium text-gray-900">
                     ニュース
                   </span>
-                </a>
+                </NuxtLink>
 
-                <a
-                  href="/#course"
+                <NuxtLink
+                  to="/#course"
                   class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
-                  @click="close"
+                  @click.native="close"
                 >
                   <span class="ml-3 text-base font-medium text-gray-900">
                     コース
                   </span>
-                </a>
+                </NuxtLink>
 
-                <a
-                  href="/courses/trial"
+                <NuxtLink
+                  to="/courses/trial"
                   class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
-                  @click="close"
+                  @click.native="close"
                 >
                   <span class="ml-3 text-base font-medium text-gray-900">
                     体験講座
                   </span>
-                </a>
+                </NuxtLink>
 
-                <a
-                  href="/#contact"
+                <NuxtLink
+                  to="/#contact"
                   class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
-                  @click="close"
+                  @click.native="close"
                 >
                   <span class="ml-3 text-base font-medium text-gray-900">
                     お問い合わせ
                   </span>
-                </a>
+                </NuxtLink>
 
-                <a
-                  href="https://www.instagram.com/sg_shodo_mh/"
+                <NuxtLink
+                  to="https://www.instagram.com/sg_shodo_mh/"
                   target="_blank"
                   rel="noopener"
                   class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
                   aria-label="Instagram"
-                  @click="close"
+                  @click.native="close"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -165,7 +165,7 @@
                   <span class="ml-3 text-base font-medium text-gray-900">
                     Instagram
                   </span>
-                </a>
+                </NuxtLink>
               </nav>
             </div>
           </div>
