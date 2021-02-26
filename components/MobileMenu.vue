@@ -117,13 +117,13 @@
                   お問い合わせ
                 </NuxtLink>
 
-                <NuxtLink
-                  to="https://www.instagram.com/sg_shodo_mh/"
+                <a
+                  href="https://www.instagram.com/sg_shodo_mh/"
                   target="_blank"
                   rel="noopener"
                   class="flex justify-center p-2 rounded-md hover:bg-gray-50"
                   aria-label="Instagram"
-                  @click.native="close"
+                  @click="close"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -153,7 +153,7 @@
                   <span class="ml-3 text-base font-medium text-gray-900">
                     Instagram
                   </span>
-                </NuxtLink>
+                </a>
               </nav>
             </div>
           </div>
