@@ -26,11 +26,14 @@ export default {
         rel: 'canonical',
         href: process.env.BASE_URL,
       },
-    ],
-    script: [
       {
-        src: `//typesquare.com/3/tsst/script/ja/typesquare.js?${process.env.TYPESQUARE_TOKEN}&fadein=100`,
-        body: true,
+        rel: 'preconnect',
+        href: 'https://fonts.gstatic.com',
+      },
+      {
+        rel: 'stylesheet',
+        href:
+          'https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1&display=swap',
       },
     ],
   },

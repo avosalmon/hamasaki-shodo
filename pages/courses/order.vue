@@ -31,7 +31,7 @@
       <div class="flex-1 pt-10 md:pt-32">
         <h2 class="text-2xl mb-1 text-center">筆文字依頼</h2>
         <p class="text-xl mb-8 text-center">（応相談）</p>
-        <p class="leading-7 md:text-center">
+        <p class="leading-8 md:text-center">
           命名書やお誕生日・還暦祝いなどのプレゼント、<br
             class="hidden md:inline"
           />
