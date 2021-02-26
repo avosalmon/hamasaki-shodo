@@ -26,17 +26,20 @@ export default {
         rel: 'canonical',
         href: process.env.BASE_URL,
       },
-    ],
-    script: [
       {
-        src: `//typesquare.com/3/tsst/script/ja/typesquare.js?${process.env.TYPESQUARE_TOKEN}&fadein=100`,
-        body: true,
+        rel: 'preconnect',
+        href: 'https://fonts.gstatic.com',
+      },
+      {
+        rel: 'stylesheet',
+        href:
+          'https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1&display=swap',
       },
     ],
   },
 
   env: {
-    SITE_NAME: process.env.SITE_NAME,
+    APP_NAME: process.env.APP_NAME,
     BASE_URL: process.env.BASE_URL,
     TYPESQUARE_TOKEN: process.env.TYPESQUARE_TOKEN,
     CLOUDINARY_ID: process.env.CLOUDINARY_ID,
@@ -55,6 +58,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
+    '@nuxtjs/google-analytics',
     '@nuxtjs/tailwindcss',
   ],
 
@@ -72,6 +76,11 @@ export default {
   // Sitemap module configuration: https://sitemap.nuxtjs.org
   sitemap: {
     hostname: process.env.BASE_URL || 'http://localhost:3000',
+  },
+
+  // Google Analytics module configuration: https://google-analytics.nuxtjs.org/options
+  googleAnalytics: {
+    id: process.env.GA_TRACKING_ID,
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

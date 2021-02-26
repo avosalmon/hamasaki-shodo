@@ -28,7 +28,7 @@ export default {
   },
 
   head() {
-    const siteName = process.env.SITE_NAME
+    const siteName = process.env.APP_NAME
     const title = this.title ? `${this.title} - ${siteName}` : siteName
     const pageUrl = `${process.env.BASE_URL}${this.pagePath}`
 

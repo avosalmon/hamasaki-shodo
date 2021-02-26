@@ -1,6 +1,10 @@
 <template>
   <div class="px-4 md:container md:mx-auto md:px-0">
-    <SocialHead title="筆文字依頼" page-path="/courses/order"></SocialHead>
+    <SocialHead
+      title="筆文字依頼"
+      description="命名書やお誕生日・還暦祝いなどのプレゼント、お店や名刺などの看板、ロゴなどを承っております。"
+      page-path="/courses/order"
+    ></SocialHead>
     <div class="flex flex-col md:flex-row">
       <div class="flex-1 -mx-4 md:mx-0">
         <div class="md:hidden">
@@ -31,7 +35,7 @@
       <div class="flex-1 pt-10 md:pt-32">
         <h2 class="text-2xl mb-1 text-center">筆文字依頼</h2>
         <p class="text-xl mb-8 text-center">（応相談）</p>
-        <p class="leading-7 md:text-center">
+        <p class="leading-8 md:text-center">
           命名書やお誕生日・還暦祝いなどのプレゼント、<br
             class="hidden md:inline"
           />

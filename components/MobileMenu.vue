@@ -68,72 +68,60 @@
               </div>
             </div>
             <div class="mt-6">
-              <nav class="grid gap-y-8">
-                <a
-                  href="/#message"
-                  class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
-                  @click="close"
+              <nav class="grid gap-y-4">
+                <NuxtLink
+                  to="/#message"
+                  class="block text-center p-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50"
+                  @click.native="close"
                 >
-                  <span class="ml-3 text-base font-medium text-gray-900">
-                    ごあいさつ
-                  </span>
-                </a>
+                  ごあいさつ
+                </NuxtLink>
 
-                <a
-                  href="/#teacher"
-                  class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
-                  @click="close"
+                <NuxtLink
+                  to="/#teacher"
+                  class="block text-center p-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50"
+                  @click.native="close"
                 >
-                  <span class="ml-3 text-base font-medium text-gray-900">
-                    講師紹介
-                  </span>
-                </a>
+                  講師紹介
+                </NuxtLink>
 
-                <a
-                  href="/#news"
-                  class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
-                  @click="close"
+                <NuxtLink
+                  to="/#news"
+                  class="block text-center p-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50"
+                  @click.native="close"
                 >
-                  <span class="ml-3 text-base font-medium text-gray-900">
-                    ニュース
-                  </span>
-                </a>
+                  ニュース
+                </NuxtLink>
 
-                <a
-                  href="/#course"
-                  class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
-                  @click="close"
+                <NuxtLink
+                  to="/#course"
+                  class="block text-center p-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50"
+                  @click.native="close"
                 >
-                  <span class="ml-3 text-base font-medium text-gray-900">
-                    コース
-                  </span>
-                </a>
+                  コース
+                </NuxtLink>
 
-                <a
-                  href="/courses/trial"
-                  class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
-                  @click="close"
+                <NuxtLink
+                  to="/courses/trial"
+                  class="block text-center p-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50"
+                  @click.native="close"
                 >
-                  <span class="ml-3 text-base font-medium text-gray-900">
-                    体験講座
-                  </span>
-                </a>
+                  体験講座
+                </NuxtLink>
 
-                <a
-                  href="/#contact"
-                  class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
-                  @click="close"
+                <NuxtLink
+                  to="/#contact"
+                  class="block text-center p-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50"
+                  @click.native="close"
                 >
-                  <span class="ml-3 text-base font-medium text-gray-900">
-                    お問い合わせ
-                  </span>
-                </a>
+                  お問い合わせ
+                </NuxtLink>
 
                 <a
                   href="https://www.instagram.com/sg_shodo_mh/"
                   target="_blank"
                   rel="noopener"
-                  class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
+                  class="flex justify-center p-2 rounded-md hover:bg-gray-50"
                   aria-label="Instagram"
                   @click="close"
                 >

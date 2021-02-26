@@ -1,6 +1,10 @@
 <template>
   <div class="px-4 md:container md:mx-auto md:px-0">
-    <SocialHead title="学生書道講座" page-path="/courses/kids"></SocialHead>
+    <SocialHead
+      title="学生書道講座"
+      description="幼稚園生(5才)〜中学生までの講座です。毛筆を中心に指導します。硬筆は宿題と添削にて指導いたします。"
+      page-path="/courses/kids"
+    ></SocialHead>
     <div class="flex flex-col md:flex-row">
       <div class="flex-1 -mx-4 md:mx-0">
         <div class="md:hidden">
@@ -32,7 +36,7 @@
         <h2 class="text-2xl mb-1 text-center">学生書道講座</h2>
         <p class="text-xl mb-1 text-center">（5才〜中学生）</p>
         <p class="text-xl mb-8 text-center">（60分）</p>
-        <p class="leading-7 md:text-center">
+        <p class="leading-8 md:text-center">
           幼稚園生(5才)〜中学生までの講座です。<br class="hidden md:inline" />
           毛筆を中心に指導します。<br />
           硬筆は宿題と添削にて指導いたします。<br />
