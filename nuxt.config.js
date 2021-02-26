@@ -58,6 +58,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
+    '@nuxtjs/google-analytics',
     '@nuxtjs/tailwindcss',
   ],
 
@@ -70,6 +71,11 @@ export default {
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
+
+  // Google Analytics module configuration: https://google-analytics.nuxtjs.org/options
+  googleAnalytics: {
+    id: process.env.GA_TRACKING_ID,
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
