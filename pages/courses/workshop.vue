@@ -35,7 +35,7 @@
         <h2 class="text-2xl mb-1 text-center">単発ワークショップ</h2>
         <p class="text-xl mb-1 text-center">（60分〜120分）</p>
         <p class="text-xl mb-8 text-center">※不定期</p>
-        <p class="leading-7 md:text-center">
+        <p class="leading-8 md:text-center">
           不定期・単発開催のワークショップです。<br />
           開催情報は<NuxtLink to="/#news" class="underline"
             >「ニュース」</NuxtLink

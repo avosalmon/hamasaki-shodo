@@ -3,9 +3,11 @@
     <SocialHead :image-url="mainImageUrl"></SocialHead>
     <PageSection class="text-center">
       <p class="my-3 text-4xl md:text-6xl">はまさき書道教室</p>
-      <p class="mb-4 text-4xl md:text-6xl">Singapore</p>
-      <p class="mb-8 text-2xl">Supported by Learning Stage</p>
-      <p class="mb-12 text-xl">
+      <p class="mb-6 text-4xl md:text-6xl">Singapore</p>
+      <p class="mb-8 text-xl md:mb-12 md:text-2xl">
+        Supported by Learning Stage
+      </p>
+      <p class="mb-12 text-xl md:mb-16">
         <span>3人までの少人数指導。</span>
         <br class="md:hidden" />
         <span>River Valleyの小さな教室です。</span>
@@ -18,7 +20,7 @@
     <div id="message" class="mb-12 md:mb-24"></div>
     <PageSection class="flex flex-col md:flex-row">
       <div class="flex-1 mb-12 md:mb-0 md:p-10 md:bg-gray-100">
-        <p class="leading-7 mb-4 md:mb-12">
+        <p class="leading-8 mb-4 md:mb-12">
           文字を上手に書きたい、美しく書きたい、という思いは、字を書きはじめたこどもから大人まで、多くの人が心の内に持っている願いではないでしょうか。<br />
           文字の美しさは、文字の形の良さだけを指すものではありません。その線をかたちづくる”一筆一筆”に美しさが宿っていきます。<br />
           「はまさき書道教室
@@ -82,8 +84,8 @@
           <h2 class="mb-8 text-2xl">濱崎 麻里子</h2>
           <ul class="mb-8">
             <li class="mb-1">東京学芸大学教育学部書道専攻卒業</li>
-            <li class="mb-1">中学校教諭一種免許状（国語）取得</li>
-            <li>高等学校教諭一種免許状（書道）取得</li>
+            <li class="mb-1">中学校教諭一種免許状 (国語) 取得</li>
+            <li>高等学校教諭一種免許状 (書道) 取得</li>
           </ul>
           <dl class="mb-8">
             <dt class="mb-1">2011-2013</dt>
@@ -94,17 +96,16 @@
             <dd>来星</dd>
           </dl>
           <ul>
-            <li class="mb-1">2011 書の交差展（やさしい予感/目黒）</li>
+            <li class="mb-1">2011 書の交差展 (やさしい予感/目黒)</li>
             <li class="mb-1">
-              2013 横浜赤レンガ２０１３-sho is
-              it!-（横浜赤レンガ倉庫一号館/横浜）
+              2013 横浜赤レンガ2013 -sho is it!- (横浜赤レンガ倉庫一号館/横浜)
             </li>
             <li class="mb-1">
-              2015 藤華展（鳩居堂/銀座）・髙墨展（日展新会館/日暮里）
+              2015 藤華展 (鳩居堂/銀座)・髙墨展 (日展新会館/日暮里)
             </li>
-            <li class="mb-1">2017 藤華展（鳩居堂/銀座）</li>
+            <li class="mb-1">2017 藤華展 (鳩居堂/銀座)</li>
             <li class="mb-1">
-              2019 藤華展（鳩居堂/銀座）・古筆を学ぶ五人展（日展新会館/日暮里）
+              2019 藤華展 (鳩居堂/銀座)・古筆を学ぶ五人展 (日展新会館/日暮里)
             </li>
             <li>他 多数グループ展に出品</li>
           </ul>
@@ -117,7 +118,7 @@
       <h2 class="mb-20 text-4xl text-center">ニュース</h2>
       <ul>
         <!-- TODO: Extract as "News" component -->
-        <li class="leading-7 mb-24">
+        <li class="leading-8 mb-24">
           <p class="mb-8 text-2xl">（締め切りました）大人クラス生徒さん募集</p>
           <time class="inline-block mb-8 text-lg" datetime="2021-01-28">
             2021年1月28日
@@ -132,7 +133,7 @@
             >）にて公開いたします。
           </p>
         </li>
-        <li class="leading-7">
+        <li class="leading-8">
           <p class="mb-8 text-2xl">（締め切りました）学生クラス生徒さん募集</p>
           <time class="inline-block mb-8 text-lg" datetime="2021-01-28">
             2021年1月28日
@@ -153,7 +154,7 @@
     <div id="course" class="mb-24"></div>
     <PageSection class="py-8">
       <h2 class="mb-10 text-4xl text-center">コース</h2>
-      <p class="leading-7 md:text-center">
+      <p class="leading-8 md:text-center">
         いずれのコースもRiver Valleyでの少人数（3人まで）指導です。<br />
         体験講座もございます。入会金、用具代などについてはお問い合わせください。
       </p>
