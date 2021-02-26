@@ -12,7 +12,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['A1 Gothic R', ...defaultTheme.fontFamily.sans],
+        sans: ['Shippori Mincho B1', ...defaultTheme.fontFamily.sans],
       },
     },
   },
