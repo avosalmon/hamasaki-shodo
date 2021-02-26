@@ -39,7 +39,7 @@ export default {
   },
 
   env: {
-    SITE_NAME: process.env.SITE_NAME,
+    APP_NAME: process.env.APP_NAME,
     BASE_URL: process.env.BASE_URL,
     TYPESQUARE_TOKEN: process.env.TYPESQUARE_TOKEN,
     CLOUDINARY_ID: process.env.CLOUDINARY_ID,
