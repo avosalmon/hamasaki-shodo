@@ -71,62 +71,50 @@
               <nav class="grid gap-y-8">
                 <NuxtLink
                   to="/#message"
-                  class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
+                  class="-m-3 p-3 flex justify-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50"
                   @click.native="close"
                 >
-                  <span class="text-base font-medium text-gray-900">
-                    ごあいさつ
-                  </span>
+                  ごあいさつ
                 </NuxtLink>
 
                 <NuxtLink
                   to="/#teacher"
-                  class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
+                  class="-m-3 p-3 flex justify-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50"
                   @click.native="close"
                 >
-                  <span class="text-base font-medium text-gray-900">
-                    講師紹介
-                  </span>
+                  講師紹介
                 </NuxtLink>
 
                 <NuxtLink
                   to="/#news"
-                  class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
+                  class="-m-3 p-3 flex justify-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50"
                   @click.native="close"
                 >
-                  <span class="text-base font-medium text-gray-900">
-                    ニュース
-                  </span>
+                  ニュース
                 </NuxtLink>
 
                 <NuxtLink
                   to="/#course"
-                  class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
+                  class="-m-3 p-3 flex justify-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50"
                   @click.native="close"
                 >
-                  <span class="text-base font-medium text-gray-900">
-                    コース
-                  </span>
+                  コース
                 </NuxtLink>
 
                 <NuxtLink
                   to="/courses/trial"
-                  class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
+                  class="-m-3 p-3 flex justify-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50"
                   @click.native="close"
                 >
-                  <span class="text-base font-medium text-gray-900">
-                    体験講座
-                  </span>
+                  体験講座
                 </NuxtLink>
 
                 <NuxtLink
                   to="/#contact"
-                  class="-m-3 p-3 flex justify-center rounded-md hover:bg-gray-50"
+                  class="-m-3 p-3 flex justify-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50"
                   @click.native="close"
                 >
-                  <span class="text-base font-medium text-gray-900">
-                    お問い合わせ
-                  </span>
+                  お問い合わせ
                 </NuxtLink>
 
                 <NuxtLink
