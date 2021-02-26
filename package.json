@@ -24,6 +24,7 @@
     "@nuxtjs/cloudinary": "^1.0.3-beta-3",
     "core-js": "^3.8.2",
     "nuxt": "^2.14.12",
+    "vue-scrollto": "^2.20.0",
     "vuelidate": "^0.7.6"
   },
   "devDependencies": {
