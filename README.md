@@ -1,4 +1,5 @@
 # hamasaki-shodo
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8b1f10db-4444-4af8-a670-c62eb3afd64b/deploy-status)](https://app.netlify.com/sites/hamasaki-shodo/deploys)
 
 ## Build Setup
 

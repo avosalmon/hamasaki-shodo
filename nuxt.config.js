@@ -4,19 +4,12 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'はまさき書道教室 シンガポール',
     htmlAttrs: {
       lang: 'ja',
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      {
-        hid: 'description',
-        name: 'description',
-        content:
-          'はまさき書道教室シンガポールでは、マンツーマンから少人数で、幼稚園生から大人まできめ細やかに指導いたします。',
-      },
       {
         hid: 'keywords',
         name: 'keywords',
@@ -31,21 +24,29 @@ export default {
       },
       {
         rel: 'canonical',
-        href: 'https://www.hamasaki-shodo.com',
+        href: process.env.BASE_URL,
       },
     ],
     script: [
       {
-        src: `//typesquare.com/3/tsst/script/ja/typesquare.js?${process.env.TYPESQUARE_TOKEN}&fadein=1000`,
+        src: `//typesquare.com/3/tsst/script/ja/typesquare.js?${process.env.TYPESQUARE_TOKEN}&fadein=100`,
+        body: true,
       },
     ],
+  },
+
+  env: {
+    SITE_NAME: process.env.SITE_NAME,
+    BASE_URL: process.env.BASE_URL,
+    TYPESQUARE_TOKEN: process.env.TYPESQUARE_TOKEN,
+    CLOUDINARY_ID: process.env.CLOUDINARY_ID,
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: ['@/assets/css/main.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: ['~/plugins/click-outside.client.js'],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,

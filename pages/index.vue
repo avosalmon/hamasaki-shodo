@@ -1,5 +1,6 @@
 <template>
   <div>
+    <SocialHead :image-url="mainImageUrl"></SocialHead>
     <PageSection class="text-center">
       <p class="my-3 text-4xl md:text-6xl">はまさき書道教室</p>
       <p class="mb-4 text-4xl md:text-6xl">Singapore</p>
@@ -14,7 +15,8 @@
       </div>
     </PageSection>
 
-    <PageSection id="message" class="flex flex-col md:flex-row mt-12 md:mt-24">
+    <div id="message" class="mb-12 md:mb-24"></div>
+    <PageSection class="flex flex-col md:flex-row">
       <div class="flex-1 mb-12 md:mb-0 md:p-10 md:bg-gray-100">
         <p class="leading-7 mb-4 md:mb-12">
           文字を上手に書きたい、美しく書きたい、という思いは、字を書きはじめたこどもから大人まで、多くの人が心の内に持っている願いではないでしょうか。<br />
@@ -32,16 +34,21 @@
         </p>
       </div>
       <div class="flex-1">
-        <div class="aspect-w-4 aspect-h-3 md:aspect-w-3 md:aspect-h-4">
-          <img :src="messageImageUrl" class="md:h-full object-cover" alt="筆" />
+        <div
+          class="aspect-w-4 aspect-h-3 md:aspect-w-3 md:aspect-h-4 md:h-full"
+        >
+          <img
+            :src="messageImageUrl"
+            class="md:h-full object-cover"
+            alt="筆"
+            loading="lazy"
+          />
         </div>
       </div>
     </PageSection>
 
-    <section
-      id="teacher"
-      class="w-full mx-auto mt-24 px-4 py-4 bg-gray-100 md:py-16"
-    >
+    <dir id="teacher" class="mb-24"></dir>
+    <section class="w-full mx-auto px-4 py-4 bg-gray-100 md:py-16">
       <div class="flex flex-col mx-auto md:flex-row md:w-2/3 lg:w-3/5">
         <div class="flex-1">
           <div class="md:hidden">
@@ -52,7 +59,8 @@
               effect="sharpen:100"
               quality="auto"
               fetchFormat="auto"
-              alt="硯"
+              alt="濱崎麻里子"
+              loading="lazy"
               responsive
             />
           </div>
@@ -64,13 +72,14 @@
               effect="sharpen:100"
               quality="auto"
               fetchFormat="auto"
-              alt="硯"
+              alt="濱崎麻里子"
+              loading="lazy"
               responsive
             />
           </div>
         </div>
         <div class="flex-1 py-4 md:px-10 md:py-0">
-          <h3 class="mb-8 text-2xl">濱崎 麻里子</h3>
+          <h2 class="mb-8 text-2xl">濱崎 麻里子</h2>
           <ul class="mb-8">
             <li class="mb-1">東京学芸大学教育学部書道専攻卒業</li>
             <li class="mb-1">中学校教諭一種免許状（国語）取得</li>
@@ -103,40 +112,47 @@
       </div>
     </section>
 
-    <PageSection id="news" class="mt-24 py-8">
-      <h3 class="mb-20 text-4xl text-center">ニュース</h3>
+    <div id="news" class="mb-24"></div>
+    <PageSection class="py-8">
+      <h2 class="mb-20 text-4xl text-center">ニュース</h2>
       <ul>
         <!-- TODO: Extract as "News" component -->
         <li class="leading-7 mb-24">
-          <p class="mb-8 text-2xl">大人クラス生徒さん募集</p>
-          <time class="inline-block mb-8 text-lg" datetime="2021-01-24">
-            2021年1月24日
+          <p class="mb-8 text-2xl">（締め切りました）大人クラス生徒さん募集</p>
+          <time class="inline-block mb-8 text-lg" datetime="2021-01-28">
+            2021年1月28日
           </time>
           <p>
-            募集を一時停止していた大人のクラスですが、下記の曜日で募集を再開いたします。（）内は定員です。<br />
-            火曜 午後2時〜（1名）<br />
-            午後4時〜（1名）<br />
-            水曜 午後2時〜（2名）<br />
-            金曜 午前10時〜（2名）<br />
-            午後2時〜（2名）<br /><br />
-            入会・体験講座ご希望の方はお問い合わせフォームよりご連絡ください。
+            募集再開の情報はこちらのニュース欄またはインスタグラム（<a
+              href="https://www.instagram.com/sg_shodo_mh/"
+              class="underline"
+              target="_blank"
+              rel="noopener"
+              >@sg_shodo_mh</a
+            >）にて公開いたします。
           </p>
         </li>
         <li class="leading-7">
-          <p class="mb-8 text-2xl">学生クラス生徒さん募集</p>
-          <time class="inline-block mb-8 text-lg" datetime="2021-01-24">
-            2021年1月24日
+          <p class="mb-8 text-2xl">（締め切りました）学生クラス生徒さん募集</p>
+          <time class="inline-block mb-8 text-lg" datetime="2021-01-28">
+            2021年1月28日
           </time>
           <p>
-            金曜日17：00〜のクラスの生徒さんを募集いたします。2名まで受け入れ可能です。<br />
-            入会・体験講座をご希望の方はお問い合わせフォームよりご連絡ください。
+            募集再開の情報はこちらのニュース欄またはインスタグラム（<a
+              href="https://www.instagram.com/sg_shodo_mh/"
+              class="underline"
+              target="_blank"
+              rel="noopener"
+              >@sg_shodo_mh</a
+            >）にて公開いたします。
           </p>
         </li>
       </ul>
     </PageSection>
 
-    <PageSection id="course" class="mt-24 py-8">
-      <h3 class="mb-10 text-4xl text-center">コース</h3>
+    <div id="course" class="mb-24"></div>
+    <PageSection class="py-8">
+      <h2 class="mb-10 text-4xl text-center">コース</h2>
       <p class="leading-7 md:text-center">
         いずれのコースもRiver Valleyでの少人数（3人まで）指導です。<br />
         体験講座もございます。入会金、用具代などについてはお問い合わせください。
@@ -168,7 +184,7 @@
         class="mt-20 md:mt-40"
         title="単発ワークショップ"
         image-path="hamasaki-shodo.com/postcard"
-        image-alt="硯"
+        image-alt="ワークショップ"
         href="/courses/workshop"
       >
         <p class="text-xl mb-1">（60分〜120分）</p>
@@ -179,7 +195,7 @@
         class="mt-20 md:mt-40"
         title="筆文字依頼"
         image-path="hamasaki-shodo.com/work"
-        image-alt="硯"
+        image-alt="筆文字依頼"
         href="/courses/order"
         is-reversed
       >
@@ -190,27 +206,19 @@
         class="mt-20 md:mt-40"
         title="体験講座"
         image-path="hamasaki-shodo.com/shodo-02"
-        image-alt="硯"
+        image-alt="体験講座"
         href="/courses/trial"
       >
         <p class="text-xl mb-2">（約60分）</p>
       </Course>
     </PageSection>
 
-    <PageSection id="gallery"></PageSection>
+    <div id="gallery"></div>
+    <PageSection></PageSection>
 
-    <PageSection id="contact" class="mt-24 py-8">
-      <h3 class="mb-10 text-4xl text-center">お問い合わせ</h3>
-      <p class="leading-7 mb-10 md:text-center">
-        （現在生徒さん募集を停止しています）<br />
-        何でもお気軽にお問い合わせください。<br />
-        体験講座をご希望の方はご希望のコースを明記ください。<br />
-        ※3日以内に返信しております。返信がない場合は迷惑メールに振り分けられていないかご確認ください。<br />
-        ※WhatsAppでの返信をご希望の方はメッセージ欄に記載をお願いします。
-      </p>
-      <div class="flex justify-center">
-        <ContactForm class="w-full md:w-2/3" />
-      </div>
+    <div id="contact" class="mb-24"></div>
+    <PageSection class="flex justify-center py-8">
+      <ContactForm class="w-full md:w-2/3" />
     </PageSection>
   </div>
 </template>
@@ -220,6 +228,7 @@ import ButtonLink from '@/components/ButtonLink'
 import ContactForm from '@/components/ContactForm'
 import Course from '@/components/Course'
 import PageSection from '@/components/PageSection'
+import SocialHead from '@/components/SocialHead'
 
 export default {
   components: {
@@ -227,6 +236,7 @@ export default {
     ContactForm,
     Course,
     PageSection,
+    SocialHead,
   },
   computed: {
     mainImageUrl() {
