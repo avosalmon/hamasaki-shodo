@@ -32,6 +32,9 @@
         <h2 class="text-2xl mb-1 text-center">体験講座</h2>
         <p class="text-xl mb-8 text-center">（約60分）</p>
         <p class="leading-8 md:text-center">
+          60分のレッスンと10分のコースご説明を行います。<br />
+          道具は全てお貸し出しいたします。<br />
+          ※お子様のみ鉛筆をお持ちください。(2B〜4B推奨)<br />
           体験料＄40<br />
           詳細はお問い合わせください。
         </p>
