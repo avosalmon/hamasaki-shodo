@@ -96,16 +96,24 @@
             <dd>来星</dd>
           </dl>
           <ul>
-            <li class="mb-1">2011 書の交差展 (やさしい予感/目黒)</li>
             <li class="mb-1">
-              2013 横浜赤レンガ2013 -sho is it!- (横浜赤レンガ倉庫一号館/横浜)
+              <time datetime="2011" class="mr-2">2011</time>書の交差展
+              (やさしい予感/目黒)
             </li>
             <li class="mb-1">
-              2015 藤華展 (鳩居堂/銀座)・髙墨展 (日展新会館/日暮里)
+              <time datetime="2013" class="mr-2">2013</time>横浜赤レンガ2013
+              -sho is it!- (横浜赤レンガ倉庫一号館/横浜)
             </li>
-            <li class="mb-1">2017 藤華展 (鳩居堂/銀座)</li>
             <li class="mb-1">
-              2019 藤華展 (鳩居堂/銀座)・古筆を学ぶ五人展 (日展新会館/日暮里)
+              <time datetime="2015" class="mr-2">2015</time>藤華展
+              (鳩居堂/銀座)・髙墨展 (日展新会館/日暮里)
+            </li>
+            <li class="mb-1">
+              <time datetime="2017" class="mr-2">2017</time>藤華展 (鳩居堂/銀座)
+            </li>
+            <li class="mb-1">
+              <time datetime="2019" class="mr-2">2019</time>藤華展
+              (鳩居堂/銀座)・古筆を学ぶ五人展 (日展新会館/日暮里)
             </li>
             <li>他 多数グループ展に出品</li>
           </ul>
