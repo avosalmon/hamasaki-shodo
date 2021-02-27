@@ -67,10 +67,16 @@ export default {
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     '@nuxtjs/cloudinary',
+    '@nuxtjs/sitemap',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
+
+  // Sitemap module configuration: https://sitemap.nuxtjs.org
+  sitemap: {
+    hostname: process.env.BASE_URL || 'http://localhost:3000',
+  },
 
   // Google Analytics module configuration: https://google-analytics.nuxtjs.org/options
   googleAnalytics: {
