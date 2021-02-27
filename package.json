@@ -23,7 +23,7 @@
     "@nuxtjs/axios": "^5.12.5",
     "@nuxtjs/cloudinary": "^1.0.3-beta-3",
     "@nuxtjs/sitemap": "^2.4.0",
-    "core-js": "^3.8.2",
+    "core-js": "^3.9.0",
     "nuxt": "^2.14.12",
     "vuelidate": "^0.7.6"
   },
