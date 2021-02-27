@@ -15,6 +15,11 @@ export default {
         name: 'keywords',
         content: '書道,習字,ペン字,筆文字,習い事,シンガポール,リバーバレー',
       },
+      {
+        hid: 'google-site-verification',
+        name: 'google-site-verification',
+        content: process.env.GOOGLE_SITE_VERIFICATION_ID,
+      },
     ],
     link: [
       {
@@ -41,7 +46,6 @@ export default {
   env: {
     APP_NAME: process.env.APP_NAME,
     BASE_URL: process.env.BASE_URL,
-    TYPESQUARE_TOKEN: process.env.TYPESQUARE_TOKEN,
     CLOUDINARY_ID: process.env.CLOUDINARY_ID,
   },
 
