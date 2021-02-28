@@ -1,0 +1,19 @@
+[[redirects]]
+  from = "/%E5%AD%A6%E7%94%9F%E6%9B%B8%E9%81%93%E8%AC%9B%E5%BA%A7-%E5%B9%BC%E7%A8%9A%E5%9C%92%E7%94%9F-60%E5%88%86"
+  to = "/courses/kids"
+  status = 301
+
+[[redirects]]
+  from = "/%E5%A4%A7%E4%BA%BA%E6%9B%B8%E9%81%93%E8%AC%9B%E5%BA%A7-90%E5%88%86"
+  to = "/courses/adults"
+  status = 301
+
+[[redirects]]
+  from = "/%E5%8D%98%E7%99%BA-%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97-60%E5%88%86-120%E5%88%86-%E4%B8%8D%E5%AE%9A%E6%9C%9F"
+  to = "/courses/workshop"
+  status = 301
+
+[[redirects]]
+  from = "/%E7%AD%86%E6%96%87%E5%AD%97%E4%BE%9D%E9%A0%BC-%E5%BF%9C%E7%9B%B8%E8%AB%87"
+  to = "/courses/order"
+  status = 301
