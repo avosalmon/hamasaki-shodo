@@ -127,22 +127,37 @@
       <ul>
         <!-- TODO: Extract as "News" component -->
         <li class="leading-8 mb-24">
-          <p class="mb-8 text-2xl">（締め切りました）大人クラス生徒さん募集</p>
+          <p class="mb-8 text-2xl">
+            【学生クラス】3日間集中書道レッスン 生徒さん募集
+          </p>
           <time class="block mb-8 text-lg" datetime="2021-01-28">
-            2021年1月28日
+            2021年3月9日
           </time>
+          <p class="mb-4">
+            3日間連続集中の小学生対象お習字講座を開催いたします。<br />
+            3名限定のため、ご興味のある方はお早めにお問い合わせ下さい。
+          </p>
+          <p class="mb-4">
+            日時：3/30(火)〜4/1(木) 14:00〜15:00<br />
+            場所：River Valleyエリアの講師自宅（Valley Point付近）<br />
+            対象：小学生以上で3日間全日程参加出来る方<br />
+            費用：$120（半紙・墨液など込み）道具は貸し出しいたします。
+          </p>
           <p>
-            募集再開の情報はこちらのニュース欄またはインスタグラム（<a
-              href="https://www.instagram.com/sg_shodo_mh/"
-              class="underline"
-              target="_blank"
-              rel="noopener"
-              >@sg_shodo_mh</a
-            >）にて公開いたします。
+            (参考課題)<br />
+            小1 「かさ」<br />
+            小2 「げんき」<br />
+            小3 「大地」<br />
+            小4 「草原」<br />
+            小5 「実現」<br />
+            小6 「旅に出る」<br />
+            ※経験者の場合は課題の難易度を上げることもできます。
           </p>
         </li>
         <li class="leading-8">
-          <p class="mb-8 text-2xl">（締め切りました）学生クラス生徒さん募集</p>
+          <p class="mb-8 text-2xl">
+            （締め切りました）大人クラス・学生クラス生徒さん募集
+          </p>
           <time class="block mb-8 text-lg" datetime="2021-01-28">
             2021年1月28日
           </time>
