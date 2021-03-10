@@ -28,10 +28,6 @@ export default {
         href: '/favicon.ico',
       },
       {
-        rel: 'canonical',
-        href: process.env.BASE_URL,
-      },
-      {
         rel: 'preconnect',
         href: 'https://fonts.gstatic.com',
       },

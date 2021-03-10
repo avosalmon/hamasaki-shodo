@@ -122,6 +122,16 @@ export default {
   components: {
     MobileMenu,
   },
+  head() {
+    return {
+      link: [
+        {
+          rel: 'canonical',
+          href: `${process.env.BASE_URL}${this.$route.path}`,
+        },
+      ],
+    }
+  },
   computed: {
     currentYear() {
       return new Date().getFullYear()
