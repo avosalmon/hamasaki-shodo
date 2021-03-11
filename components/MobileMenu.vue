@@ -110,7 +110,7 @@
                 </NuxtLink>
 
                 <NuxtLink
-                  to="/#contact"
+                  to="/contact"
                   class="block text-center p-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50"
                   @click.native="close"
                 >

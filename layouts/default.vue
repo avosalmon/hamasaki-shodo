@@ -45,7 +45,7 @@
           体験講座
         </NuxtLink>
         <NuxtLink
-          to="/#contact"
+          to="/contact"
           class="text-base font-medium text-gray-700 hover:text-gray-900"
         >
           お問い合わせ

@@ -43,28 +43,20 @@
           団体様で開催ご希望の方はお問い合わせください。
         </p>
         <div class="flex justify-center mt-10">
-          <ButtonLink href="#contact">お問い合わせ</ButtonLink>
+          <ButtonLink href="/contact">お問い合わせ</ButtonLink>
         </div>
       </div>
     </div>
-    <div id="contact" class="mb-24"></div>
-    <PageSection class="flex justify-center py-8">
-      <ContactForm class="w-full md:w-2/3" />
-    </PageSection>
   </div>
 </template>
 
 <script>
 import ButtonLink from '@/components/ButtonLink'
-import ContactForm from '@/components/ContactForm'
-import PageSection from '@/components/PageSection'
 import SocialHead from '@/components/SocialHead'
 
 export default {
   components: {
     ButtonLink,
-    ContactForm,
-    PageSection,
     SocialHead,
   },
 }
