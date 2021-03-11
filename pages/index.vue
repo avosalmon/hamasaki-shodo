@@ -128,7 +128,7 @@
         <!-- TODO: Extract as "News" component -->
         <li class="leading-8 mb-24">
           <p class="mb-8 text-2xl">
-            【学生クラス】3日間集中書道レッスン 生徒さん募集
+            （締め切りました）【学生クラス】3日間集中書道レッスン 生徒さん募集
           </p>
           <time class="block mb-8 text-lg" datetime="2021-01-28">
             2021年3月9日
