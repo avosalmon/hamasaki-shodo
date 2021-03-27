@@ -207,7 +207,7 @@
 
 <script>
 import { documentToHtmlString } from '@contentful/rich-text-html-renderer'
-import { BLOCKS } from '@contentful/rich-text-types'
+import { BLOCKS, INLINES } from '@contentful/rich-text-types'
 import ButtonLink from '@/components/ButtonLink'
 import ContactForm from '@/components/ContactForm'
 import Course from '@/components/Course'
@@ -229,6 +229,10 @@ export default {
       renderNode: {
         [BLOCKS.PARAGRAPH]: (node, next) =>
           `<p class="mb-4">${next(node.content).replace(/\n/g, `</br>`)}</p>`,
+        [INLINES.HYPERLINK]: (node, next) =>
+          `<a class="underline" target="_blank" rel="noopener" href="${
+            node.data.uri
+          }">${next(node.content)}</a>`,
       },
     }
 
