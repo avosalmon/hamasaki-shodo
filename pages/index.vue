@@ -63,7 +63,6 @@
               fetchFormat="auto"
               alt="濱崎麻里子"
               loading="lazy"
-              responsive
             />
           </div>
           <div class="hidden md:block">
@@ -76,7 +75,6 @@
               fetchFormat="auto"
               alt="濱崎麻里子"
               loading="lazy"
-              responsive
             />
           </div>
         </div>
