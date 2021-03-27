@@ -43,13 +43,19 @@ export default {
     APP_NAME: process.env.APP_NAME,
     BASE_URL: process.env.BASE_URL,
     CLOUDINARY_ID: process.env.CLOUDINARY_ID,
+    CONTENTFUL_SPACE_ID: process.env.CONTENTFUL_SPACE_ID,
+    CONTENTFUL_ACCESS_TOKEN: process.env.CONTENTFUL_ACCESS_TOKEN,
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: ['@/assets/css/main.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: ['~/plugins/click-outside.client.js'],
+  plugins: [
+    '~/plugins/click-outside.client.js',
+    '~/plugins/contentful.js',
+    '~/plugins/filter.js',
+  ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
