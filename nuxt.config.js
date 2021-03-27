@@ -51,7 +51,11 @@ export default {
   css: ['@/assets/css/main.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: ['~/plugins/click-outside.client.js', '~/plugins/contentful.js'],
+  plugins: [
+    '~/plugins/click-outside.client.js',
+    '~/plugins/contentful.js',
+    '~/plugins/filter.js',
+  ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
