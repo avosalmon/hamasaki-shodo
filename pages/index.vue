@@ -4,9 +4,6 @@
     <PageSection class="text-center">
       <p class="my-3 text-4xl md:text-6xl">はまさき書道教室</p>
       <p class="mb-6 text-4xl md:text-6xl">Singapore</p>
-      <p class="mb-8 text-xl md:mb-12 md:text-2xl">
-        Supported by Learning Stage
-      </p>
       <p class="mb-12 text-xl md:mb-16">
         <span>3人までの少人数指導。</span>
         <br class="md:hidden" />
@@ -20,19 +17,11 @@
     <div id="message" class="mb-12 md:mb-24"></div>
     <PageSection class="flex flex-col md:flex-row">
       <div class="flex-1 mb-12 md:mb-0 md:p-10 md:bg-gray-100">
-        <p class="leading-8 mb-4 md:mb-12">
+        <p class="mb-4 leading-8 md:mb-12">
           文字を上手に書きたい、美しく書きたい、という思いは、字を書きはじめたこどもから大人まで、多くの人が心の内に持っている願いではないでしょうか。<br />
           文字の美しさは、文字の形の良さだけを指すものではありません。その線をかたちづくる”一筆一筆”に美しさが宿っていきます。<br />
           「はまさき書道教室
           Singapore」では、3人までの少人数制のきめ細やかな指導によって、文字の外形的な美しさはもちろん、それに止まらない個性の光る文字を目指していきます。
-        </p>
-        <p>
-          <ButtonLink
-            href="https://www.learning-stage.com/japanese-calligraphy/"
-            target="_blank"
-            rel="noopener"
-            >Learning Stage HP</ButtonLink
-          >
         </p>
       </div>
       <div class="flex-1">
@@ -41,7 +30,7 @@
         >
           <img
             :src="messageImageUrl"
-            class="md:h-full object-cover"
+            class="object-cover md:h-full"
             alt="筆"
             loading="lazy"
           />
@@ -50,7 +39,7 @@
     </PageSection>
 
     <dir id="teacher" class="mb-24"></dir>
-    <section class="w-full mx-auto px-4 py-4 bg-gray-100 md:py-16">
+    <section class="w-full px-4 py-4 mx-auto bg-gray-100 md:py-16">
       <div class="flex flex-col mx-auto md:flex-row md:w-2/3 lg:w-3/5">
         <div class="flex-1">
           <div class="md:hidden">
@@ -147,8 +136,8 @@
         image-alt="硯"
         href="/courses/kids"
       >
-        <p class="text-xl mb-1">（5才〜中学生）</p>
-        <p class="text-xl mb-2">（60分）</p>
+        <p class="mb-1 text-xl">（5才〜中学生）</p>
+        <p class="mb-2 text-xl">（60分）</p>
       </Course>
 
       <Course
@@ -159,7 +148,7 @@
         href="/courses/adults"
         is-reversed
       >
-        <p class="text-xl mb-2">（90分）</p>
+        <p class="mb-2 text-xl">（90分）</p>
       </Course>
 
       <Course
@@ -169,8 +158,8 @@
         image-alt="ワークショップ"
         href="/courses/workshop"
       >
-        <p class="text-xl mb-1">（60分〜120分）</p>
-        <p class="text-xl mb-2">※不定期</p>
+        <p class="mb-1 text-xl">（60分〜120分）</p>
+        <p class="mb-2 text-xl">※不定期</p>
       </Course>
 
       <Course
@@ -181,7 +170,7 @@
         href="/courses/order"
         is-reversed
       >
-        <p class="text-xl mb-2">（応相談）</p>
+        <p class="mb-2 text-xl">（応相談）</p>
       </Course>
 
       <Course
@@ -191,7 +180,7 @@
         image-alt="体験講座"
         href="/courses/trial"
       >
-        <p class="text-xl mb-2">（約60分）</p>
+        <p class="mb-2 text-xl">（約60分）</p>
       </Course>
     </PageSection>
 
@@ -208,7 +197,6 @@
 <script>
 import { documentToHtmlString } from '@contentful/rich-text-html-renderer'
 import { BLOCKS, INLINES } from '@contentful/rich-text-types'
-import ButtonLink from '@/components/ButtonLink'
 import ContactForm from '@/components/ContactForm'
 import Course from '@/components/Course'
 import News from '@/components/News'
@@ -217,7 +205,6 @@ import SocialHead from '@/components/SocialHead'
 
 export default {
   components: {
-    ButtonLink,
     ContactForm,
     Course,
     News,
