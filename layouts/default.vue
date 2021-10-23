@@ -1,18 +1,18 @@
 <template>
   <div>
-    <header class="fixed bg-white w-full z-10">
+    <header class="fixed z-10 w-full bg-white">
       <div
-        class="flex justify-between items-center border-b-2 border-gray-100 px-4 py-6 sm:px-6 md:justify-center"
+        class="flex items-center justify-between px-4 py-6 border-b-2 border-gray-100 sm:px-6 md:justify-center"
       >
         <h1 class="text-xl">
           <NuxtLink to="/">はまさき書道教室 Singapore</NuxtLink>
         </h1>
-        <div class="-mr-2 -my-2 md:hidden">
+        <div class="-my-2 -mr-2 md:hidden">
           <MobileMenu></MobileMenu>
         </div>
       </div>
       <nav
-        class="hidden md:flex justify-center items-center bg-gray-100 py-4 space-x-6"
+        class="items-center justify-center hidden py-4 space-x-6 bg-gray-100 md:flex"
       >
         <NuxtLink
           to="/#message"
@@ -79,7 +79,7 @@
     <main class="pt-32 pb-10 md:pt-52">
       <Nuxt />
     </main>
-    <footer class="mx-auto w-full md:w-2/3 lg:w-3/5 px-4 py-10 text-center">
+    <footer class="w-full px-4 py-10 mx-auto text-center md:w-2/3 lg:w-3/5">
       <p class="flex justify-center mb-8">
         <a
           href="https://www.instagram.com/sg_shodo_mh/"
@@ -108,8 +108,6 @@
       </p>
       <p>
         <span>&copy; {{ currentYear }} はまさき書道教室 Singapore. </span>
-        <br class="md:hidden" />
-        <span>Supported by Learning Stage</span>
       </p>
     </footer>
   </div>
