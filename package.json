@@ -27,7 +27,7 @@
     "contentful": "^8.2.0",
     "core-js": "^3.8.2",
     "date-fns": "^2.19.0",
-    "nuxt": "^2.14.12",
+    "nuxt": "^3.0.0",
     "vuelidate": "^0.7.6"
   },
   "devDependencies": {
