@@ -17,3 +17,13 @@
   from = "/%E7%AD%86%E6%96%87%E5%AD%97%E4%BE%9D%E9%A0%BC-%E5%BF%9C%E7%9B%B8%E8%AB%87"
   to = "/courses/order"
   status = 301
+
+[[redirects]]
+  from = "https://www.hamasaki-shodo.com/*"
+  to = "https://sg.hamasaki-shodo.com/:splat"
+  status = 301
+
+[[redirects]]
+  from = "https://hamasaki-shodo.com/*"
+  to = "https://sg.hamasaki-shodo.com/:splat"
+  status = 301
