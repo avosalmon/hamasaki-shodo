@@ -22,8 +22,10 @@
   from = "https://www.hamasaki-shodo.com/*"
   to = "https://sg.hamasaki-shodo.com/:splat"
   status = 301
+  force = true
 
 [[redirects]]
   from = "https://hamasaki-shodo.com/*"
   to = "https://sg.hamasaki-shodo.com/:splat"
   status = 301
+  force = true
