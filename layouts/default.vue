@@ -121,11 +121,13 @@ export default {
     MobileMenu,
   },
   head() {
+    const path = this.$route.path === '/' ? '' : this.$route.path
+
     return {
       link: [
         {
           rel: 'canonical',
-          href: `${process.env.BASE_URL}${this.$route.path}`,
+          href: `${process.env.BASE_URL}${path}`,
         },
       ],
     }
